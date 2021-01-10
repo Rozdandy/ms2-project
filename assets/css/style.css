@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&family=Supermercado+One&display=swap');
+
+
+html {
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+
+body {
+     min-height: 100vh;
+  
+  background: url("../images/background.jpg");
+}
+
+.page-title {
+    margin-top: 70px;
+  font-family: Langar, serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 4em;
+  color: #fafafa;
+}
+
+
+.game-info-container {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+
+  
+}
+
+
+.game-info {
+  font-family: Supermercado, serif;
+  color: #FFBB89;
+  font-size: 3em;
+}
+
+div.game-container {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  margin: 50px;
+  justify-content: center;
+ 
+}
+
+
+
+.card{
+    position: relative; 
+    height: 160px;
+    width: 115px;
+    border-radius: 12px;
+    
+}
+/* 
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  border-width: 5px;
+  border-style: solid;
+  transition: transform 500ms ease-in-out;
+  
+ 
+} */
+
+
