@@ -56,7 +56,7 @@ div.game-container {
     border-radius: 12px;
     
 }
-/* 
+
 .card-face {
   position: absolute;
   width: 100%;
@@ -65,13 +65,41 @@ div.game-container {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  backface-visibility: hidden;
-  border-radius: 12px;
-  border-width: 5px;
-  border-style: solid;
-  transition: transform 500ms ease-in-out;
+  
   
  
-} */
+} 
 
 
+
+
+.ghg{
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  transition: width 100ms ease-in-out, height 100ms ease-in-out;
+  
+}
+
+
+
+
+
+
+.ghg-topRight-N2O{
+  transform: rotate(-260deg);
+  top: 0;
+  right: 0;
+}
+
+.ghg-bottomLeft-cfc{
+  
+  bottom: 0;
+  left: 0;
+}
+
+.ghg-bottomRight-methane{
+  
+  bottom: 0;
+  right: 0;
+}
