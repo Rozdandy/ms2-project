@@ -174,3 +174,21 @@ position: absolute;
   height: 70px;
   
 }
+
+/* to allow the 500ms to flip over before it start dancing for 1s */
+.card.matched .win-match{
+
+animation: dance 1s linear infinite 500ms;
+}
+
+@keyframes dance {
+    0%, 100%  {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(-30deg);
+    }
+    75% {
+        transform: rotate(30deg);
+  }
+}
