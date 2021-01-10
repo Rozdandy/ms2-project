@@ -65,12 +65,23 @@ div.game-container {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  
+  backface-visibility: hidden;
+  border-radius: 12px;
+  border-width: 5px;
+  border-style: solid;
+  transition: transform 500ms ease-in-out;
   
  
-} 
+}
 
 
+.card.visible .card-back {
+  transform: rotateY(-180deg);
+}
+
+.card.visible .card-front {
+  transform: rotateY(0)
+}
 
 
 .ghg{
@@ -80,6 +91,12 @@ div.game-container {
   transition: width 100ms ease-in-out, height 100ms ease-in-out;
   
 }
+
+.card-back {
+    background-color: rgba(195, 212, 37, 0.8); 
+    border-color: rgb(235, 53, 21);
+}
+
 
 
 
@@ -101,5 +118,49 @@ div.game-container {
 .ghg-bottomRight-methane{
   
   bottom: 0;
+  right: 0;
+}
+
+.card-front {
+  background-color: rgba(78, 11, 39, 0.1);
+  border-color: #333;
+  transform: rotateY(180deg);
+}
+
+.win-match {
+    transform: (.9);
+}
+
+.card-front:hover .win-match {
+    transform: scale(1);
+    transition: transform 100ms ease-in-out;
+}
+
+
+
+.card-face:hover .ghg {
+   height: 52px;
+    width: 52px;
+}
+
+
+.ghg-topLeft-carbondioxide {
+  transform: rotate(270deg);
+  top: 0;
+  left: 0;
+} 
+
+
+ .card-front .eden {
+  transform: rotate(0deg);
+  top: 0;
+  left: 0;
+} 
+
+
+.card-front .edenz{
+
+transform: rotate(360deg);
+  top: 0;
   right: 0;
 }
