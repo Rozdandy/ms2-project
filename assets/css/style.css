@@ -44,7 +44,7 @@ div.game-container {
   grid-gap: 10px;
   margin: 50px;
   justify-content: center;
- 
+ perspective: 500px;
 }
 
 
@@ -163,4 +163,14 @@ div.game-container {
 transform: rotate(360deg);
   top: 0;
   right: 0;
+}
+
+
+
+.bonny,
+.win-match {
+position: absolute;
+  width: 70px;
+  height: 70px;
+  
 }
