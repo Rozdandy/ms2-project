@@ -255,7 +255,7 @@ animation: dance 1s linear infinite 500ms;
 
 
 @media (max-width: 600px) {
-  .game-container {
+  div.game-container {
     grid-template-columns: repeat(2, auto);
   }
 
