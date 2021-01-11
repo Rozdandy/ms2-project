@@ -32,11 +32,40 @@
 
     </head>
     <body>
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <a href="index.html" class="navbar-brand hvr-grow-shadow">CCMG</a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav justify-content-center naveLinks mr-auto">
+                    <li class="active nav-item mr-2">
+                        <a class="nav-link hvr-grow-shadow active" href="index.html"><i class="fas fa-home"></i> <span>Welcome</span></a>
+                    </li>
+                    <li class="nav-item mr-2">
+                        <a class="nav-link hvr-grow-shadow" href="#climateChangeGame" data-toggle="modal" data-target="#staticBackdrop1"><i class="fas fa-play fa-lg"></i> <span>Play Game</span></a>
+                    </li>
+
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-md-block" id="you">
+                <!-- <p class="navbar-text my-auto display-flex"><i>More Subliminal Games!</i></p> -->
+                <a href="/login" class="btn btn-lg btn--cta btn--red hvr-grow-shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</a>
+            </div>
+        </nav>
 
 
 
+ <div class="container-fluid welcome-page">
+            <div class="row no-gutters">
+                <div class="col-12 justify-content-center">
+                    
+                </div>
 
-
+            </div>
 
          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 
@@ -49,5 +78,5 @@
         <script src="assets/js/cards.js"></script>
         <!--Code for API in this folder Google maps API script-->
     </body>
-    
+
 </html>
