@@ -78,34 +78,9 @@ class ClimateChangeGame {
         this.ticker.innerText = this.totalClicks;  
      }
 
-    // this function flips the cards
-    flipCard(card) {
-        if(this.canFlipCard(card)) {
-            this.audioController.flip();
-            this.totalClicks++;
-            this.ticker.innerText = this.totalClicks;
-            card.classList.add('visible');
-
-            if(this.cardToCheck) {
-                this.checkForCardMatch(card);
-            } else {
-                this.cardToCheck = card;
-            }
-        }
-    }
-
     
-// for a pair of cards to match
-  checkForCardMatch(card) {
-        if(this.getCardType(card) === this.getCardType(this.cardToCheck))
-            this.cardMatch(card, this.cardToCheck);
-        else 
-            this.cardMismatch(card, this.cardToCheck);
 
-        this.cardToCheck = null;
-    }
-
-       startCountdown() {
+     startCountdown() {
 // the function that counts the time down
         return setInterval(() => {
             this.timeRemaining--;
@@ -114,7 +89,9 @@ class ClimateChangeGame {
                 this.gameOver();
         }, 1000);
     }
- gameOver() {
+    
+
+gameOver() {
         clearInterval(this.countdown);
         this.audioController.gameOver();
         document.getElementById('game-over-text').classList.add('visible');
@@ -134,6 +111,34 @@ class ClimateChangeGame {
         });
     }
 
+// this function flips the cards
+    flipCard(card) {
+        if(this.canFlipCard(card)) {
+            this.audioController.flip();
+            this.totalClicks++;
+            this.ticker.innerText = this.totalClicks;
+            card.classList.add('visible');
+
+            if(this.cardToCheck) {
+                this.checkForCardMatch(card);
+            } else {
+                this.cardToCheck = card;
+            }
+        }
+    }
+
+// for a pair of cards to match
+  checkForCardMatch(card) {
+        if(this.getCardType(card) === this.getCardType(this.cardToCheck))
+            this.cardMatch(card, this.cardToCheck);
+        else 
+            this.cardMismatch(card, this.cardToCheck);
+
+        this.cardToCheck = null;
+    }
+
+      
+ 
 
 
     
@@ -149,28 +154,7 @@ class ClimateChangeGame {
     }
 
 
-    // conditions if a card could be flipped
-     canFlipCard(card) {
-        return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
-    }
-}
-
-
-shuffleCards(cardsArray) { // Fisher-Yates Shuffle Algorithm.
-        for (let i = cardsArray.length - 1; i > 0; i--) {
-            let randIndex = Math.floor(Math.random() * (i + 1));
-            cardsArray[randIndex].style.order = i;
-            cardsArray[i].style.order = randIndex;
-        }
-    }
-
-     getCardType(card) {
-        return card.getElementsByClassName('win-match')[0].src;
-    }
-
-
-
-    cardMismatch(card1, card2) {
+cardMismatch(card1, card2) {
         this.busy = true;
         setTimeout(() => {
             card1.classList.remove('visible');
@@ -178,6 +162,31 @@ shuffleCards(cardsArray) { // Fisher-Yates Shuffle Algorithm.
             this.busy = false;
         }, 1000);
     }
+
+
+    shuffleCards(cardsArray) { // Fisher-Yates Shuffle Algorithm.
+        for (let i = cardsArray.length - 1; i > 0; i--) {
+            let randIndex = Math.floor(Math.random() * (i + 1));
+            cardsArray[randIndex].style.order = i;
+            cardsArray[i].style.order = randIndex;
+        }
+    }
+
+  
+
+
+     getCardType(card) {
+        return card.getElementsByClassName('win-match')[0].src;
+    }
+
+      // conditions if a card could be flipped
+     canFlipCard(card) {
+        return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
+    }
+}
+
+
+    
     
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready);
