@@ -25,3 +25,139 @@ body, html {
 
     position: relative;
 }
+
+.navbar-dark {
+    padding: 0px;
+    border: 0;
+    background-color:rgba(90, 150, 210, 0.95)!important;
+}
+
+
+
+
+.navbar-dark .navbar-brand  {                                    
+        float:left;
+        font-family: "Supermercado", sans-serif;
+        font-size: 170%;
+        margin-left: 0px;
+        margin-bottom: 0;
+        padding-bottom: 2px;
+        padding-left: 20px;
+        border-bottom: 0;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: white;
+        text-decoration: none;
+        line-height: 75px;
+        height: 75px;
+
+}
+
+
+
+.collapse .naveLinks {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.nav-item {
+
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    text-transform: normal;
+}
+
+.nav-item a {
+    width: 100%;
+    text-decoration: none;
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+.nav-item a i {
+    padding-top: 5px;
+    display: inline;
+    color:#ffffff;
+    font-size: 30px;
+}
+
+.nav-item a span {
+    width: 100%;                               
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-bottom: 15px;
+  
+}
+
+.navbar-toggler-icon{
+    border: 0;
+}
+
+.btn--red {
+    width: 150px;
+    margin: 5px 10px;
+    padding: 2px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+}
+ 
+
+#modalFormdiv  {
+    text-align: center;
+}
+
+
+.modalForm {
+    font-weight: bold;
+    
+}
+
+.jumbotron h1 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Langar", sans-serif;
+
+
+}
+
+
+.jumbotron {
+    background-color: rgb(26, 24, 21);
+    max-width: 75%;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 50px 50px 30px 30px;
+    margin-bottom: 50px;
+}
+
+
+.jumbotron .lead {
+    color: whitesmoke;
+    line-height: 30px;
+    margin: 20px 0;
+    padding: 0 30px 30px;
+    transition: height 0.5s ease-in-out;
+}
+
+.insideReadMore {
+
+    color: whitesmoke;
+    line-height: 30px;
+    margin: 20px 0;
+    padding: 0 30px 30px;
+    transition: height 0.5s ease-in-out;
+    
+}
