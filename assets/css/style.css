@@ -86,8 +86,8 @@ div.game-container {
 
 .ghg{
   position: absolute;
-  width: 47px;
-  height: 47px;
+  width: 37px;
+  height: 37px;
   transition: width 100ms ease-in-out, height 100ms ease-in-out;
   
 }
@@ -269,7 +269,7 @@ animation: dance 1s linear infinite 500ms;
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+/* @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 .side-links {
   position: absolute;
@@ -310,4 +310,4 @@ animation: dance 1s linear infinite 500ms;
 .side-link-icon {
   color: white;
   font-size: 30px;
-}
+} */
