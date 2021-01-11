@@ -105,6 +105,19 @@ class ClimateChangeGame {
         this.cardToCheck = null;
     }
 
+       startCountdown() {
+// the function that counts the time down
+        return setInterval(() => {
+            this.timeRemaining--;
+            this.timer.innerText = this.timeRemaining;
+            if(this.timeRemaining === 0)
+                this.gameOver();
+        }, 1000);
+    }
+
+
+
+    
     
 // for a card that match
     cardMatch(card1, card2) {
@@ -137,7 +150,7 @@ shuffleCards(cardsArray) { // Fisher-Yates Shuffle Algorithm.
         return card.getElementsByClassName('win-match')[0].src;
     }
 
-    
+
 
     
 if (document.readyState == 'loading') {
