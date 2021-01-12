@@ -188,11 +188,7 @@ cardMismatch(card1, card2) {
 
     
     
-if (document.readyState == 'loading') {
-    document.addEventListener('DOMContentLoaded', ready);
-} else {
-    ready();
-}
+
 
 function ready() {
     // this function collect arrays from html to be used in Javascript
@@ -217,5 +213,20 @@ function ready() {
  }); 
 }
 
+function myFunction() {
+  var x = document.getElementById("showMoreContent1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+ 
+}
+
+if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', ready);
+} else {
+    ready();
+}
 
  
