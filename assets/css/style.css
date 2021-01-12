@@ -273,3 +273,51 @@ ul > .ccTerms-typo{
 #showMoreContent1{
     display: none;
 }
+
+
+.sectional-container{
+    margin-top: 75px;
+}
+
+#carolzDiv{
+    position: relative;
+    
+   max-height: 600px;
+   overflow: hidden;
+   justify-content: center;
+
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.6);
+    margin-bottom: 30%;
+    padding: 50px 50px;
+    border-radius: 15px 50px 30px;
+}
+
+.carousel-caption p {
+      font-size: 20px;
+}
+
+.drk:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#000;
+    opacity:0.4;
+}
+
+.newpage-header #quotes {
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 10px;
+     padding-bottom: 10px;
+     letter-spacing: 2px;
+     text-align: center;
+     font-family: "Langar", sans-serif;
+}
