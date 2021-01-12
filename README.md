@@ -28,7 +28,7 @@ The website objective is mainly to sensitize the users on what climate change me
 
 ## Ownership  Goals
 
-* Build a good engaging and interactive website with life Experience.
+* Build a good engaging and interactive website with real life Experience.
 
 * To show good understanding of JavaScript and other technologies.
 
@@ -36,10 +36,70 @@ The website objective is mainly to sensitize the users on what climate change me
 
 * Build a site with game features that is easy to maintained and scaled and adapted by others.
 
+* As a site developer, I want to develop an interactive website which user could play a game while learning, and sign up for more.
+
+* As a site developer, I want to develop a site that is user friendly, responsive compactible with many devices including mobile ones.
+
+* As a site owner, I want my users to be able to connect with the developer through social media platforms.
+
+* As a site owner, I want to be able to showcase my skills and portfolio.
+
+* As a site owner, I want my users to be able to learn more about climate change and be more concious of the impacts.
+
+
+### User stories
+ 
+* As a visiting user, I want to know the meaning of climate change.
+* As a visiting user, I want to know the how climate change could impact humans and the ecosystem.
+* As a visiting user, I would want to able to sign up with CCMG.
+* As a visiting user, I would want to know some jargons use in the climate change parlance.
+* As a visiting user, I would want to know the instructions on how to play thesite game.
+* As a user, I want to know world leaders views on climate change. 
+* As a user, I want to know where this organisation is located.
+* As a user, I want to be able to link with site owner on Social Media platforms.
+* As a user, I want to play readily start the game at a simple click without delay.
+* As a visiting user, I want to see a game site that appeals to the sight, with good functionality.
+* As a visiting user, I want to play with soft but not distracting background sound.
+* As a visiting user, I want to play a game that is less instructive.
+* As a user, I want a game that I can recommend to people easily including students.
+* As a potential user, I want to play game that is fun at the same time educating.
+* As a user, I would want to know the meaning of images at the back of cards and front of cards.
+* As a visiting user, I want to hear the victory music when I won the game.
+* As a visiting user, I want to hear the victory music when I won the game.
+* As user, to want resounding indication like animations and sounds if I have a pair of cards matched
+* As a user, I want to hear a music which is different from the victory sound if I failed to defeat the timer.
+* As a user, i want to play a flipping card game to reveal the hidden images behind.
+* As a user, I want to be able to view the countdown time that i am competing against which gives sense of challenge and mind engagement.
+* As a user, I want to the number of flips it took me to win game game
+* As a user, i want to be able to restart the at a click if I won or lost the game easily without much ado.
+* As a user, I want to be able to click to sign up or contact the site owner or follow on social media without having to leave the page.
 
 
 
+## User Expectations
 
+**Header, Main body divided into sections and Footer.**
 
+* In the Header the user would see a the Logo and a navigation bar across the top which collapses on mobile devices:
+
+* The navigation bar has the follwoing features
+  
+  *  **Welcome**
+  * **Play Game**
+  * **Sign up**
+
+* Main body
+
+  * **Contains climaet Change content**
+  * **Read more button**
+  * **Two more buttons**
+  * **Carousel**
+  * **Quotations**
+  
+* The Footer
+
+  * **Means of Conatct**
+  * **social media links**
+  * **Address**
 
 
