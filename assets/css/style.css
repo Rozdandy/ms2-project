@@ -321,3 +321,74 @@ ul > .ccTerms-typo{
      text-align: center;
      font-family: "Langar", sans-serif;
 }
+
+
+
+footer {
+    background-color:rgba(90, 150, 210, 0.95);
+    color: #777777;
+    min-height: 120px;
+    margin-top: 30px;
+}
+
+/*--------------------footer-socialMedia---*/
+
+.social-media {
+    padding-bottom: 15px;
+    text-align:center;
+}
+
+div ul.social-media li a {
+    text-align: center;
+}
+                                
+div ul.social-media li a i {
+    width: 2.0em;
+    height: 2.0em;
+    margin: 3%;
+    padding: 5%;
+    border-radius: 25%;
+    font-size: 1.8em;
+    line-height: 1.8em;
+    text-align: center;
+    color: #fafafa;
+    background: rgba(0,73,83,0.9);
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-media li a i:hover {
+    background: rgba(255,36,0, 0.8);
+}
+
+
+#footer-contents {
+    padding: 10px;
+}
+
+
+      /*--------------------footer-contacts---*/
+
+footer .contacts {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.footer-header {
+    color: #ffffff;
+    text-align: center;
+    
+}
+
+footer .contactslg {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    
+}
+ 
