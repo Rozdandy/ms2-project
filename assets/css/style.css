@@ -110,7 +110,7 @@ body, html {
 }
  
 
-#modalFormdiv  {
+/* #modalFormdiv  {
     text-align: center;
 }
 
@@ -118,7 +118,7 @@ body, html {
 .modalForm {
     font-weight: bold;
     
-}
+} */
 
 .jumbotron h1 {
     color: white;
@@ -160,4 +160,116 @@ body, html {
     padding: 0 30px 30px;
     transition: height 0.5s ease-in-out;
     
+}
+
+
+/* Block dividers */
+
+.block-divider {
+    width: 75px;
+    height: 15px;
+    border: 0;
+   
+}
+
+ /* .block-divider--orange {
+    background-color: red;
+  margin: 0 auto;
+   height: 25px;
+}
+ */
+hr {
+    background-color: red;
+    margin: 0 auto;
+   height: 25px;
+}
+
+/*
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
+} */
+
+
+.ccTerms {
+    max-height: 280px;
+    width: auto;
+    background-color: goldenrod;
+    font: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    transform: height 0.5s ease-in-out;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: 50px;
+
+
+}
+.ccTerms-Links{
+     list-style-type: none;
+} 
+
+ul > .ccTerms-typo{
+    color: white;
+    padding: 5px;
+    font-style: italic;
+}
+
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color:rgba(0,73,83,0.9);
+    border-color:rgba(0,73,83,0.9);
+}
+
+
+ .btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+} 
+
+.expandToggle{
+    margin-bottom: 30px;
+}
+
+
+
+.btn--red.climateButton{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 20px;
+    align-content: center;
+    border-radius:12px;
+    margin-left: 55px;
+    text-transform: capitalize;
+    font: white;
+    
+}
+
+
+.page-headers{
+    margin: 75px auto;
+
+}
+
+
+
+#showMoreContent1{
+    display: none;
 }
