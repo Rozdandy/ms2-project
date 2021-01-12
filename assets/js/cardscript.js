@@ -1,4 +1,3 @@
-
     //this constructor controls all audios in the game audio controller for game
     class AudioController {
     constructor() {
@@ -55,7 +54,7 @@ class ClimateChangeGame {
         this.cardsArray = cards;
         this.totalTime = totalTime;
         this.timeRemaining = totalTime;
-        this.timer = document.getElementById('time-remaining')
+        this.timer = document.getElementById('time-remaining');
         this.ticker = document.getElementById('flips');
         this.audioController = new AudioController();
     }
@@ -72,7 +71,7 @@ class ClimateChangeGame {
             this.shuffleCards(this.cardsArray);
             this.countdown = this.startCountdown();
             this.busy = false;
-        }, 500)
+        }, 500);
         this.hideCards();
         this.timer.innerText = this.timeRemaining;
         this.ticker.innerText = this.totalClicks;  
@@ -213,12 +212,13 @@ function ready() {
  }); 
 }
 
-function myFunction() {
-  var x = document.getElementById("showMoreContent1");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+// this was used toggle read more button in html file
+function readMore() {
+  var showContent = document.getElementById("showMoreContent1");
+  if (showContent.style.display === "none") {
+    showContent.style.display = "block";
   } else {
-    x.style.display = "none";
+    showContent.style.display = "none";
   }
  
 }
@@ -228,5 +228,3 @@ if (document.readyState == 'loading') {
 } else {
     ready();
 }
-
- 

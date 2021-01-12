@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Langar&family=Supermercado+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Langar&family=Supermercado+One&display=swap");
 
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -9,16 +10,15 @@ body, html {
     font-family: "Supermercado", sans-serif;
 }
 
-.welcome-page{
-   
+.welcome-page {
     height: 100vh;
 
-    background: url('../images/welcm.jpg') no-repeat center center fixed;
+    background: url("../images/welcm.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,28 +29,24 @@ body, html {
 .navbar-dark {
     padding: 0px;
     border: 0;
-    background-color:rgba(90, 150, 210, 0.95)!important;
+    background-color: rgba(90, 150, 210, 0.95) !important;
 }
 
-
-
-
-.navbar-dark .navbar-brand  {                                    
-        float:left;
-        font-family: "Supermercado", sans-serif;
-        font-size: 170%;
-        margin-left: 0px;
-        margin-bottom: 0;
-        padding-bottom: 2px;
-        padding-left: 20px;
-        border-bottom: 0;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: white;
-        text-decoration: none;
-        line-height: 75px;
-        height: 75px;
-
+.navbar-dark .navbar-brand {
+    float: left;
+    font-family: "Supermercado", sans-serif;
+    font-size: 170%;
+    margin-left: 0px;
+    margin-bottom: 0;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    border-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    line-height: 75px;
+    height: 75px;
 }
 
 
@@ -59,11 +55,9 @@ body, html {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-    
 }
 
 .nav-item {
-
     text-align: center;
     list-style: none;
     padding: 0;
@@ -81,22 +75,21 @@ body, html {
 .nav-item a i {
     padding-top: 5px;
     display: inline;
-    color:#ffffff;
+    color: #ffffff;
     font-size: 30px;
 }
 
 .nav-item a span {
-    width: 100%;                               
+    width: 100%;
     padding-top: 5px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
     text-align: center;
     padding-bottom: 15px;
-  
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     border: 0;
 }
 
@@ -108,17 +101,14 @@ body, html {
     color: white;
     text-transform: uppercase;
 }
- 
 
-/* #modalFormdiv  {
+#modalFormdiv {
     text-align: center;
 }
 
-
 .modalForm {
     font-weight: bold;
-    
-} */
+}
 
 .jumbotron h1 {
     color: white;
@@ -129,10 +119,7 @@ body, html {
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: "Langar", sans-serif;
-
-
 }
-
 
 .jumbotron {
     background-color: rgb(26, 24, 21);
@@ -143,7 +130,6 @@ body, html {
     margin-bottom: 50px;
 }
 
-
 .jumbotron .lead {
     color: whitesmoke;
     line-height: 30px;
@@ -153,15 +139,12 @@ body, html {
 }
 
 .insideReadMore {
-
     color: whitesmoke;
     line-height: 30px;
     margin: 20px 0;
     padding: 0 30px 30px;
     transition: height 0.5s ease-in-out;
-    
 }
-
 
 /* Block dividers */
 
@@ -169,10 +152,9 @@ body, html {
     width: 75px;
     height: 15px;
     border: 0;
-   
 }
 
- /* .block-divider--orange {
+/* .block-divider--orange {
     background-color: red;
   margin: 0 auto;
    height: 25px;
@@ -181,9 +163,8 @@ body, html {
 hr {
     background-color: red;
     margin: 0 auto;
-   height: 25px;
+    height: 25px;
 }
-
 
 .block-divider--white {
     background-color: white;
@@ -192,7 +173,6 @@ hr {
 .block-divider--short {
     width: 35px;
 }
-
 
 .ccTerms {
     max-height: 280px;
@@ -207,19 +187,16 @@ hr {
     line-height: 20px;
     font-size: 15px;
     margin-left: 50px;
-
-
 }
-.ccTerms-Links{
-     list-style-type: none;
-} 
+.ccTerms-Links {
+    list-style-type: none;
+}
 
-ul > .ccTerms-typo{
+ul > .ccTerms-typo {
     color: white;
     padding: 5px;
     font-style: italic;
 }
-
 
 .btn--cta {
     font-weight: bold;
@@ -229,103 +206,90 @@ ul > .ccTerms-typo{
 
 .btn--red {
     color: white;
-    background-color:rgba(0,73,83,0.9);
-    border-color:rgba(0,73,83,0.9);
+    background-color: rgba(0, 73, 83, 0.9);
+    border-color: rgba(0, 73, 83, 0.9);
 }
 
-
- .btn--red:hover,
+.btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
-} 
+}
 
-.expandToggle{
+.expandToggle {
     margin-bottom: 30px;
 }
 
-
-
-.btn--red.climateButton{
+.btn--red.climateButton {
     width: auto;
     height: auto;
     padding: 10px;
     margin: 20px;
     align-content: center;
-    border-radius:12px;
+    border-radius: 12px;
     margin-left: 55px;
     text-transform: capitalize;
     font: white;
-    
 }
 
-
-.page-headers{
+.page-headers {
     margin: 75px auto;
-
 }
 
-
-
-#showMoreContent1{
+#showMoreContent1 {
     display: none;
 }
 
-
-.sectional-container{
+.sectional-container {
     margin-top: 75px;
 }
 
-#carolzDiv{
+#carolzDiv {
     position: relative;
-    
-   max-height: 600px;
-   overflow: hidden;
-   justify-content: center;
 
+    max-height: 600px;
+    overflow: hidden;
+    justify-content: center;
 }
 
 .carousel-caption {
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     margin-bottom: 30%;
     padding: 50px 50px;
     border-radius: 15px 50px 30px;
 }
 
 .carousel-caption p {
-      font-size: 20px;
+    font-size: 20px;
 }
 
 .drk:after {
-    content:"";
-    display:block;
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background:#000;
-    opacity:0.4;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.4;
 }
 
 .newpage-header #quotes {
-
     margin-bottom: 20px;
     margin-top: 20px;
     padding-top: 10px;
-     padding-bottom: 10px;
-     letter-spacing: 2px;
-     text-align: center;
-     font-family: "Langar", sans-serif;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "Langar", sans-serif;
 }
 
-
-
 footer {
-    background-color:rgba(90, 150, 210, 0.95);
+    background-color: rgba(90, 150, 210, 0.95);
     color: #777777;
     min-height: 120px;
     margin-top: 30px;
@@ -335,16 +299,16 @@ footer {
 
 .social-media {
     padding-bottom: 15px;
-    text-align:center;
+    text-align: center;
 }
 
 div ul.social-media li a {
     text-align: center;
 }
-                                
+
 div ul.social-media li a i {
-    width: 2.0em;
-    height: 2.0em;
+    width: 2em;
+    height: 2em;
     margin: 3%;
     padding: 5%;
     border-radius: 25%;
@@ -352,7 +316,7 @@ div ul.social-media li a i {
     line-height: 1.8em;
     text-align: center;
     color: #fafafa;
-    background: rgba(0,73,83,0.9);
+    background: rgba(0, 73, 83, 0.9);
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -360,16 +324,14 @@ div ul.social-media li a i {
 }
 
 .social-media li a i:hover {
-    background: rgba(255,36,0, 0.8);
+    background: rgba(255, 36, 0, 0.8);
 }
-
 
 #footer-contents {
     padding: 10px;
 }
 
-
-      /*--------------------footer-contacts---*/
+/*--------------------footer-contacts---*/
 
 footer .contacts {
     font-size: 18px;
@@ -381,7 +343,6 @@ footer .contacts {
 .footer-header {
     color: #ffffff;
     text-align: center;
-    
 }
 
 footer .contactslg {
@@ -389,6 +350,4 @@ footer .contactslg {
     color: #fafafa;
     text-align: center;
     padding-left: 5px;
-    
 }
- 
