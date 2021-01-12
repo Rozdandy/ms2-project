@@ -103,3 +103,14 @@ The website objective is mainly to sensitize the users on what climate change me
   * **Address**
 
 
+  **Wireframe**
+
+The original website started by making sketches on paper, a rough work of what was intended to be created.  As the idea became clearer, the knowledge was transferred to [Balsamiq App](https://balsamiq.com/)for the design architechture and  the site wireframe was designed. Although, there were some minor changes in the design but mostly the layout on the app gave the guidance, a step by step guard to build the final website. Below is the link to the wireframe for the desktop and mobile devices.
+
+**View all**
+ * [Wireframe](wireframe/mockup.pdf)
+        
+
+
+
+

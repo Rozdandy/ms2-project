@@ -53,7 +53,6 @@ body {
     list-style: none;
     padding: 0;
     margin: 0px;
-    text-transform: normal;
 }
 
 .nav-item a {
@@ -241,11 +240,11 @@ div.game-container {
   transform: rotateY(180deg);
 }
 
-.win-match {
-    transform: (.9);
+.matchedz {
+    transform: scale(0.9);
 }
 
-.card-front:hover .win-match {
+.card-front:hover .matchedz {
     transform: scale(1);
     transition: transform 100ms ease-in-out;
 }
@@ -282,7 +281,7 @@ transform: rotate(360deg);
 
 
 .bonny,
-.win-match {
+.matchedz {
 position: absolute;
   width: 70px;
   height: 70px;
@@ -290,7 +289,7 @@ position: absolute;
 }
 
 /* to allow the 500ms to flip over before it start dancing for 1s */
-.card.matched .win-match{
+.card.matched .matchedz{
 
 animation: dance 1s linear infinite 500ms;
 }

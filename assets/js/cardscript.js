@@ -175,7 +175,7 @@ cardMismatch(card1, card2) {
 
 
      getCardType(card) {
-        return card.getElementsByClassName('win-match')[0].src;
+        return card.getElementsByClassName('matchedz')[0].src;
     }
 
       // conditions if a card could be flipped
@@ -200,7 +200,7 @@ function ready() {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
             game.startGame();
-      //   let audioController = new AudioController();
+        // let audioController = new AudioController();
           audioController.startMusic();
         });
     });

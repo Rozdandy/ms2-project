@@ -62,7 +62,7 @@ html {
     list-style: none;
     padding: 0;
     margin: 0px;
-    text-transform: normal;
+    
 }
 
 .nav-item a {
@@ -178,11 +178,11 @@ hr {
     max-height: 280px;
     width: auto;
     background-color: goldenrod;
-    font: white;
-    overflow: hidden;
+    color: white;
+    /* overflow: hidden; */
     overflow-y: scroll;
     padding: 10px;
-    transform: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
     text-align: center;
     line-height: 20px;
     font-size: 15px;
@@ -190,6 +190,7 @@ hr {
 }
 .ccTerms-Links {
     list-style-type: none;
+    padding-left: 5px;
 }
 
 ul > .ccTerms-typo {
@@ -232,7 +233,7 @@ ul > .ccTerms-typo {
     border-radius: 12px;
     margin-left: 55px;
     text-transform: capitalize;
-    font: white;
+    color: white;
 }
 
 .page-headers {
