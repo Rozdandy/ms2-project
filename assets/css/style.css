@@ -234,6 +234,7 @@ ul > .ccTerms-typo {
     margin-left: 55px;
     text-transform: capitalize;
     color: white;
+    font-weight: bold;
 }
 
 .page-headers {
