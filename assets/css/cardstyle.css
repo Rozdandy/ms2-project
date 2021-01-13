@@ -280,7 +280,7 @@ transform: rotate(360deg);
 
 
 
-.bonny,
+.earth,
 .matchedz {
 position: absolute;
   width: 70px;
@@ -368,15 +368,51 @@ animation: dance 1s linear infinite 500ms;
 
 
 @media (max-width: 600px) {
-  div.game-container {
-    grid-template-columns: repeat(2, auto);
-  }
+
+div.game-container {
+  
+  grid-gap: 8px;
+  margin: 25 25 25 27;px;
+  justify-content: center;
+
+}
+
+
+  .card{
+    position: relative; 
+    height: 120px;
+    width: 86.25px;
+    border-radius: 10px;
+    
+}
+
+.ghg{
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  transition: width 100ms ease-in-out, height 100ms ease-in-out;
+  
+}
+
+.earth,
+.matchedz {
+position: absolute;
+  width: 50px;
+  height: 50px;
+  
+}
+
+.card-face:hover .ghg {
+   height: 39px;
+    width: 39px;
+}
 
   .game-info-container {
     flex-direction: column;
     align-items: center;
   }
 }
+
 
 
 
