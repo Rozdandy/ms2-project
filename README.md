@@ -76,31 +76,117 @@ The website objective is mainly to sensitize the users on what climate change me
 
 
 
-## User Expectations
 
-**Header, Main body divided into sections and Footer.**
 
-* In the Header the user would see a the Logo and a navigation bar across the top which collapses on mobile devices:
+
+# **Features:**
+
+## * Header, Main body divided into sections and Footer, and same as the Game section*
+
+  **A highly responsive mobile first design using a [Bootstrap framework](https://getbootstrap.com/docs/5.0/getting-started/introduction/).**
+  **All rounduUser friendly display site.**
+
+## **1. The header:**
+
+*The header has the following features*
+ 
+i.   The company logo **CCMG**
+ii.  The **Sign up** red button
+iii. Navigational bar with easy flow that collapses on mobile displays and sticks-top on desktop.
 
 * The navigation bar has the follwoing features
   
-  *  **Welcome**
-  * **Play Game**
-  * **Sign up**
+  *  *Welcome and icon*
+  * *Play Game link and icnon*
+  * *Sign up button*
 
-* Main body
+## **2. CCMG**
 
-  * **Contains climaet Change content**
-  * **Read more button**
-  * **Two more buttons**
-  * **Carousel**
-  * **Quotations**
-  
-* The Footer
+The company logo **CCMG**: When a user hover the mouse over it, it displays the fullname of the organisation, also when a user click on it,it revert back to the home page.
 
-  * **Means of Conatct**
-  * **social media links**
-  * **Address**
+
+## **3. Home Page 
+
+This the first and main page of the site when a user enters the URI. The page educates on the meaning of climate change and the and the impact on both on humans and the ecosystem.
+
+**Specifically it has the following features**:
+
+ * **Contains climate Change content**: A Bootstrap jumbotron which spans across the top of the site.
+
+  * *Read more button*:    A green button which contains the impact of climate change.
+     * *Two more buttons*: Two green buttons, they are an bootstrap accordion to reduce clicks and scrolling, the left one has some climate change terms while the right one is link to the game and instructions.
+
+## **4. Quotes
+
+**It has the following features**:
+
+   * **carousel**: It contains notable quotes on climate change from world leaders with some nice background images.
+
+
+## **5. Footer:** 
+
+This section is located at the bottom-most part of the page. It provides the user with the following information.
+
+  * *Telephone number*
+  * *social media links*
+  * *Email*
+  * *Address*
+
+
+
+
+
+## * The Game section*
+
+### *Game Startup page*
+
+ * The page loads with a ready-to-use display such as **Click to Start**. 
+ * It has a slightly dark transparent overlay. Game starts on click and the timer starts counting down while the flip notes the number of flips the user makes. * Since the aim of the game is to test user memory against the timer, the start click also starts the clock this is to maximize time. Below image is the start-up screen.
+
+
+
+
+
+### *Active Game Mode and back of cards*
+
+* The active view of the game has the game Title, Timer, flip counter, cards and background sound. Below is an image.
+* The card images enlarge when player or user hovers over the back of the cards, it animates and grows toward the center of the card.
+* The five images at the back of the card represent items which are very significant to climate change.
+* In the following order: Top-Left-Right, Bottom-Right-Left and center, the images are Carbondioxide molecule (Co2), Nitrous oxide molecule N2O, methane molecule (CH4), chloroflourocarbon molecule (CFC) and image of the earth.
+* Those images except that of the earth are gases that causes green-house-gas (GHG), which are the major anthropogenic factors that cause climate change
+* All the images rotate clockwisely.
+
+image here 
+
+
+
+
+### *Front of cards*
+ * When a user clicks on a card, it flips over and the cardfront view is displayed.
+ * In the following order: Top-Left-Right, Bottom-Right-Left and center, the images are flood, desert, wildfire, emssions and lastly are the win-value images to be matched in the center and they are person cycling, vertical city, smartcity, urban farming, solar panel, windturbine, recycling, and tree planting.
+* Those images except the ones at the center are the likely impact of climate change, while the ones in center are the likely mitigation and adaptation means to climate change.
+* The card images enlarge when player or user hovers over the front of the cards, it animates and grows toward the center of the card.
+
+
+
+
+* When a user clicks, the flip sound could be heard.
+* When a pair of cards matches on clicks, the cards will sway left to right in dancing animation and a clapping sounds and the matched cards remained face front.
+
+
+
+
+
+* If the pair of cards did not match both cards will display momentarily and then flipped back to be hidden.
+
+
+
+
+## *Game Over and victory mood*
+
+* There are different displays when the game ends, loser and winner.
+* The won game screen displays victory with a resounding victory sound and an overlayed click to restart.
+* The lost game screen displays game over with a melancholy sound, and an overlayed click to restart.
 
 
   **Wireframe**
@@ -110,7 +196,6 @@ The original website started by making sketches on paper, a rough work of what w
 **View all**
  * [Wireframe](wireframe/mockup.pdf)
         
-
 
 
 
