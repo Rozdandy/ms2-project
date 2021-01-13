@@ -354,10 +354,61 @@ This section is located at the bottom-most part of the page. It provides the use
               5. Check the padding of the contents.
               6. Ensure when you hover on the social media icons they display red.
               7. Repeat this same steps on a mobile view.
+              8. However, notice on mobile view that the location address does not appear.
+
+
+### Game section
+
+              1. On desktop, Notice the Navigational bar has similar feature as the hompage except the background color is transparent.
+              2. Inspect links, and icons in the navigation menu to ensure they are well placed and they  
+                 are appearing correctly and centrally aligned on the navigation bar.
+              3. Notice that the navbar is fixed so no matter where you are on the site you know where you are,
+                 one can click to access any any section.
+              4. When move cursor over the logo "CCMG" it displayed the full name of site, that is, 
+                 Climate Change Memory Game.
+              7. Check the fonts color and ensure they are white and same for the footer.
+              8. When move the cursor over the icons, ensure they hovers and grow.
+              9. When move the cursor over the to the red sign up button to the right, it hovers, and grow.
+              
+              10. To test the smooth scroll and also to verify that the links are working do the following:
+
+                    (i)   Click on "WELCOME" link and verify that it take you back to the HOME page
+                    (ii)  Click on "PLAY GAME" link and verify that the accordion opens and showing the "Game Instruction".
+                           
+                    (iii) Click on "QUOTE" link or icon and verify that it returns to the quote section in the homepage.
+                
+                    (vi)  Click on the red "Sign Up" button and verify that the modal form opens.
+
+                    **On the mobile view and medium device view**
+
+                    (a) Check to ensure that the navigation bar is responsive and all the icons and links collapsed 
+                        into the toggler icon.
+                    (b) Notice that the toggler icon is properly styled and at the right corner position.
+                    (c) Notice that all the icons are hidden, and that only the names of the links that appears 
+                        and they are centrally and vertically aligned.
+                    (d) Repeat steps (i) - (v) above for the mobile views
+                    
+
+              
+
+2. **The Body and Game**
+   
+              1. On mobile view notice the game collapse into two columns, the cards appear in two columns. 
+              2. Check the game title to text are vertically stacked over one another and they centrally aligned and the font is white in color.
+              3. 
+              9. Also, inspect that all the various sections are vertically align for the mobile view and they 
+                 are responsives.
 
 
 
+6. **Footer**
 
+              1. Scroll down to the footer section.
+              2. Check that the background color is same as that of the theme of the Navigational bar.
+              3. Check that all the contacts are there and the social links are working.
+              6. Ensure when you hover on the social media icons they display red.
+              7. Repeat this same steps on a mobile view.
+              8. However, notice on mobile view that the location address does not appear and the content stacked vertically over one another.
 
 
 
