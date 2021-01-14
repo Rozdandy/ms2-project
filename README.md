@@ -176,30 +176,75 @@ I used the following webistes to validate the site HTML, CSS, and Javascript fil
         [HTML test](assets/testing/homepagehtml.png) 
     * Similarly, the CSS validator checked the Cascading Style Sheets (CSS), and nd it is without errors.
         [CSS test](assets/testing/homepagecss.png)
-      
-    * Also, I used the 'Audit' option in Google Dev Tools to ensure the site is working perfectly.
     * Furthermore, the website was tested on Google Chrome, Mozilla, Firefox, and Internet Explorer.
       and it works perfectly in them.
-    
-for the game testing
+      * Systems: Macbook Pro Laptop, HP laptop, and Lenovo laptop.
+      * Browsers: Chrome, Opera, Edge, Firefox, Safari
+      * Phones and Tabs: iPad Pro, different Iphone series and androids
 
-       [HTML test](assets/testing/cardgamehtml.png)
-       [CSS test](assets/testing/cardcss.png)
-* -for the JavaScript
-        [Javascript test](assets/testing/jshinttest.png)
-        [Javascript test](assets/testing/jshinttest2.png)
+    
+ * -For the game testing-
+
+*    [HTML test](assets/testing/cardgamehtml.png)
+
+*    [CSS test](assets/testing/cardcss.png)
+
+* -For the JavaScript
+        [Javascript test](assets/testing/jshint1.png)
+        [Javascript test](assets/testing/jshint15.png)
 
 * Chrome DevTools
-        [Javascript test](assets/testing/devtools.png)
+        [Javascript test](assets/testing/devToolz.png)
 
 
-* * Chrome DevTools
-        [Lighthouse test](assets/testing/lighthousetest.png)
+ * Chrome DevTools
+        [Lighthouse test](assets/testing/gamemobilLit.png)
+        [Lighthouse test](assets/testing/lighthouse2.png)
 
 
 
 
+## Bugs and resolve
 
+1. **Naviagational bar**
+    * In the game section, the Naviagational bar overlaps the Timer and the flipper due to the height of the game container both on desktop and in mobile view.
+    * In addition, in the mobile view of the game, the logo overlaps the timer and flip counter.
+
+ ### Resolve
+ * The issues was resolved by making the colour and footer of the game section transparent, also by changing the styling from justify-content-center to  justify-content: space-between;.
+ * Lastly, on the mobile device the logo was hidden.
+
+1. **Responsiveness**
+
+* Intially, the following problems were identified
+  <img src="assets/testing/mobileunfit.png">
+ * The 2 layout columns was not just good for the mobile view, it was not user-friendly, that was way code was initially built.
+ length of card was just too long for media of 600px and below.
+ ### Resolve
+* The problem was resolve by applying media query of max-width 600px, and changing the layout into 4 columns.
+* The method worked for all the small mobile devices except Iphone 5 series. Again, I had to apply another media query of max-width 350px. That resolve problems of Responsiveness and compactibility.
+see here for the images [media@600](assets/testing/responsivecode2.png)
+                        [media@600](assets/testing/responsivecode.png)
+
+2. **Floating footer**
+   * There was the footer problem that would not stick to the bottom. After doing lot of research by googling, and watching lot of youtube videos, finally there was solution after an interactive section with an online tutor.
+    <img src="assets/testing/footerfloat.png">
+
+### Resolve
+
+ * It was because I hard coded the footer height. I had to remove the height value for it to be resolve
+    <img src="assets/testing/footerfloat1.png">
+
+
+3. **Toggle Issue**
+    * There was an issue of a button that has to be toggle twice before it reponded. The button was the Read More button in the centre of the jumbotron in the homepage. 
+    * the major problem was because  <button class="btn btn-lg btn--cta btn--red hvr-grow-shadow read-moreButton expandToggle" onclick="readMore()">Read More..</button> the expandToggle class was used and also, in the Javascript the style was displayed none instead of block as can be seen in code below.
+    (var showContent = document.getElementById("showMoreContent1");
+  if (showContent.style.display === "none") )
+    <img src="assets/testing/footerfloat1.png">
+
+### Resolve 
+* The class expandToggle was removed and the style-display was changed from none to block.
 
 
 
