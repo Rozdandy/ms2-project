@@ -356,12 +356,12 @@ animation: dance 1s linear infinite 500ms;
   }
   to {
     background-color: rgba(0, 0, 0, .8);
-    font-size: 10em;
+    font-size: 8.5em;
   }
 }
 
 .overlay-text-small {
-  font-size: .3em;
+  font-size: 0.2em;
 }
 
 
@@ -411,6 +411,75 @@ position: absolute;
     align-items: center;
   }
 }
+
+
+
+/* (for say less than 450px), and make the cards smaller (say 75px or 80px wide).  */
+
+@media (max-width: 350px) {
+
+div.game-container {
+  
+  grid-gap: 3.5px;
+  margin: 25px 25px 25px 27px;
+  justify-content: center;
+}
+
+
+  .card{
+    position: relative; 
+    height: 110px;
+    width: 79px;
+    border-radius: 8px;
+    
+}
+
+.ghg{
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  transition: width 100ms ease-in-out, height 100ms ease-in-out;
+  
+}
+
+.earth,
+.matchedz {
+position: absolute;
+  width: 45.33px;
+  height: 45.33px;
+  
+}
+
+.card-face:hover .ghg {
+   height: 32px;
+    width: 32px;
+}
+
+  .game-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+@keyframes overlay-grow {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0;
+  }
+  to {
+    background-color: rgba(0, 0, 0, .8);
+    font-size: 7em;
+  }
+}
+
+.overlay-text-small {
+  font-size: 0.3em;
+}
+
+
+
+}
+
 
 
 

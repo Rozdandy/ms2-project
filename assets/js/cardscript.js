@@ -1,5 +1,4 @@
-    //this constructor controls all audios in the game audio controller for game
-    class AudioController {
+  class AudioController {
     constructor() {
         this.bgSounds = new Audio('assets/Audio/bgMusic.mp3');
         this.flipSounds = new Audio('assets/Audio/flipCardSound.mp3');
@@ -200,8 +199,7 @@ function ready() {
         overlay.addEventListener('click', () => {
             overlay.classList.remove('visible');
             game.startGame();
-        // let audioController = new AudioController();
-          audioController.startMusic();
+      
         });
     });
 
@@ -215,10 +213,10 @@ function ready() {
 // this was used toggle read more button in html file
 function readMore() {
   var showContent = document.getElementById("showMoreContent1");
-  if (showContent.style.display === "none") {
-    showContent.style.display = "block";
-  } else {
+  if (showContent.style.display === "block") {
     showContent.style.display = "none";
+  } else {
+    showContent.style.display = "block";
   }
  
 }
