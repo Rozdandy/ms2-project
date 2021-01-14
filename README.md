@@ -1,6 +1,7 @@
 # **CCMG**
 
-<img src="assets/testing/responsiveness.jpg">
+<img src="assets/testing/hommepage.png">
+<img src="assets/testing/game.png">
 
 ### **Website link:** 
 
@@ -132,6 +133,69 @@ This section is located at the bottom-most part of the page. It provides the use
   * *social media links*
   * *Email*
   * *Address*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Testing
+
+
+***Sites Validation***
+
+I used the following webistes to validate the site HTML, CSS, and Javascript files respectively.
+
+* [HTML-Validator](https://validator.w3.org/#validate_by_input")
+* [CSS-validator](https://jigsaw.w3.org/css-validator/#validate_by_input")
+* [Jshint](https://jshint.com/)
+* [lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+
+
+
+    * The HTML validated the codes without any errors.
+        [HTML test](assets/testing/homepagehtml.png) 
+    * Similarly, the CSS validator checked the Cascading Style Sheets (CSS), and nd it is without errors.
+        [CSS test](assets/testing/homepagecss.png)
+      
+    * Also, I used the 'Audit' option in Google Dev Tools to ensure the site is working perfectly.
+    * Furthermore, the website was tested on Google Chrome, Mozilla, Firefox, and Internet Explorer.
+      and it works perfectly in them.
+    
+for the game testing
+
+       [HTML test](assets/testing/cardgamehtml.png)
+       [CSS test](assets/testing/cardcss.png)
+* -for the JavaScript
+        [Javascript test](assets/testing/jshinttest.png)
+        [Javascript test](assets/testing/jshinttest2.png)
+
+* Chrome DevTools
+        [Javascript test](assets/testing/devtools.png)
+
+
+* * Chrome DevTools
+        [Lighthouse test](assets/testing/lighthousetest.png)
+
 
 
 

@@ -372,9 +372,8 @@ animation: dance 1s linear infinite 500ms;
 div.game-container {
   
   grid-gap: 8px;
-  margin: 25 25 25 27;px;
+  margin: 25px 25px 25px 27px;
   justify-content: center;
-
 }
 
 
