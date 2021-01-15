@@ -182,41 +182,42 @@ For the game section, the cards will be layed out in a 4 by 4 grid for all devic
 
  
 
-* **Stack Overflow**: [Stack Overflow](https://fontawesome.com/)	Developer used the websites to check for proper syntax while creating the project.
 
 
+# **Technology Used**
 
-
-
-
-
-
+*The follwoing Technologies, Frameworks, and Libraries that were used to write the project.*      
 
 
 
 # **Technology Used**
 
-*The follwoing Technologies, Frameworks, and Libraries that were used to write the project.*
+ #### Main Languages
 
-* **HTML**: HTML/HTML5 the language used to create the form and add content to the website
-* **CSS**: It provides the styling for the website.
+* [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML): HTML/HTML5 the language used to create the form and add content to the website     
+* [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS):It provides the styling for the website.
+* [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+#### Libraries         
+
+* [**jQuery**](https://jquery.com/)
+* [BootStrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Used to design a mobile-first responsive website layout, modal forms and accordion.
+
+#### tools  
+
 * **Git**: It was used for version control which uses the Gitpod terminal to commit to Git and Push codes to GitHub
 * **GitHub**:         [GitHub](https://github.com/) Developer used GitHub as a project repository to save, and as a hosting service to live site.
-* **Gitpod**: The project used the Gitpod IDE as my workpsce to develop the website.
+* **Gitpod**:         [GitHub](https://www.gitpod.io/) The project used the Gitpod IDE as my workspace to develop the website. it linked to GitHub repository to store data when coding.
 * **Icons**:          [Font Awesome](https://fontawesome.com/) Social Media Icons were taken from this site.
-* **JQuery**:         [BootStrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Developer embedded JQuery from Bootstrap.
-* **Javascript**:     [BootStrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Developer used Bootstrap for the Navbar, Grids, Carousel and modal form included in this project.
+* **JQuery**:         [**jQuery**](https://jquery.com/) used to simplify some DOM manipulation for certain functions
+
 * **CSS validator**:  [CSS validator](https://jigsaw.w3.org/css-validator/) The site was used to test for the validity of my CSS code. 
 * **HTML validator**: [HTML validator](https://validator.w3.org/) The site was used to test for the validity of my HTML code.
 * **Hover.css**:      [Hover.css](https://ianlunn.github.io/Hover/) The site was used on the navigation bar links and Social Media icons in the footer to create an hovering effects.
 * **Balsamiq**:       [Balsamiq](https://balsamiq.com/) The site was used to create the wireframes during the design stage of the project.
 * **freeformatter**:  [freeformatter](https://www.freeformatter.com/html-formatter.html) The site was used to format HTML.
-
-
-
-
-
-
+* **Lighthouse**:     [Balsamiq](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) To audit the site perfomance and accessibility.
+* **Balsamiq**:       [Am I Responsive?](http://ami.responsivedesign.is/) It was used to take screenshot of devices to know if they responsive.
 
 
 
