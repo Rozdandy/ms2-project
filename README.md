@@ -167,7 +167,7 @@ I used the following webistes to validate the site HTML, CSS, and Javascript fil
 * [HTML-Validator](https://validator.w3.org/#validate_by_input")
 * [CSS-validator](https://jigsaw.w3.org/css-validator/#validate_by_input")
 * [Jshint](https://jshint.com/)
-* [lighthouse](https://developers.google.com/web/tools/lighthouse)
+
 
 
 
@@ -189,9 +189,12 @@ I used the following webistes to validate the site HTML, CSS, and Javascript fil
 
 *    [CSS test](assets/testing/cardcss.png)
 
-* -For the JavaScript
-        [Javascript test](assets/testing/jshint1.png)
-        [Javascript test](assets/testing/jshint15.png)
+* -For the JavaScript:
+JS-Hint Findings: When using the tool about 15 warnings flagged, warnings has to do basicallly with the 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6'). But i am sure confortable with it and the code is working perfectly,  however, I have taken note of that for next project. Also, there was another alert of one unused variable at the bottom. The variable was actually used and called in the home page section to control the a "Read More" button. However, all the codes work perfectly. Below are the two images.
+
+[Javascript test](assets/testing/jshint1.png)
+
+[Javascript test](assets/testing/jshint15.png)
 
 * Chrome DevTools
         [Javascript test](assets/testing/devToolz.png)
@@ -200,6 +203,24 @@ I used the following webistes to validate the site HTML, CSS, and Javascript fil
  * Chrome DevTools
         [Lighthouse test](assets/testing/gamemobilLit.png)
         [Lighthouse test](assets/testing/lighthouse2.png)
+
+
+
+
+* [lighthouse Audit](https://developers.google.com/web/tools/lighthouse): Performance, and accessibility test was conducted using the lighthouse tool option on chrome developer tool and generating a report for the selected device, to ensure the suitability and maximum performance for users. The first image was Intially generated for desktop view.
+
+<img src="assets/testing/lighthousetest1.png">
+
+The results above is 88%, after further cleaning and editing of the codes such removal of used codes and properly nestling some divs, the second image was generated which is 91% performance, though the developer strive for 100% which could be obtainable at the moment but hope to achive in future project. Below is the second image generated.
+
+<img src="assets/testing/lighthouse2.png">
+
+
+The results for mobile is 90%, although it is not terrible such a score but would strive to improve the score where needed to enhance it future performance. Below is the image from the mobile view.
+
+<img src="assets/testing/gamemobilLit.png">
+
+
 
 
 
@@ -223,8 +244,7 @@ I used the following webistes to validate the site HTML, CSS, and Javascript fil
  ### Resolve
 * The problem was resolve by applying media query of max-width 600px, and changing the layout into 4 columns.
 * The method worked for all the small mobile devices except Iphone 5 series. Again, I had to apply another media query of max-width 350px. That resolve problems of Responsiveness and compactibility.
-see here for the images [media@600](assets/testing/responsivecode2.png)
-                        [media@600](assets/testing/responsivecode.png)
+see here for the images [media@600](assets/testing/responsivecode2.png), and [media@600](assets/testing/responsivecode.png)
 
 2. **Floating footer**
    * There was the footer problem that would not stick to the bottom. After doing lot of research by googling, and watching lot of youtube videos, finally there was solution after an interactive section with an online tutor.
@@ -239,8 +259,8 @@ see here for the images [media@600](assets/testing/responsivecode2.png)
 3. **Toggle Issue**
     * There was an issue of a button that has to be toggle twice before it reponded. The button was the Read More button in the centre of the jumbotron in the homepage. 
     * the major problem was because  <button class="btn btn-lg btn--cta btn--red hvr-grow-shadow read-moreButton expandToggle" onclick="readMore()">Read More..</button> the expandToggle class was used and also, in the Javascript the style was displayed none instead of block as can be seen in code below.
-    (var showContent = document.getElementById("showMoreContent1");
-  if (showContent.style.display === "none") )
+    {(var showContent = document.getElementById("showMoreContent1"); if (showContent.style.display === "none") )}
+    
     <img src="assets/testing/footerfloat1.png">
 
 ### Resolve 
