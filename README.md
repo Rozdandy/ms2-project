@@ -138,6 +138,89 @@ This section is located at the bottom-most part of the page. It provides the use
 
 
 
+## Design Choices
+
+
+
+The concept behind this site was borne from my love for the planet, on how better human can treat her so that this generation can bequeath her to the next generation. Also, the idea of building the game was inspired by a Youtube video [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ) that I watched on how a Halloween card was built.  I therefore, thought of how to sensitize audience on climate change impact, mitigation and adaptation while at the same having fun.
+
+I thought the concept would be good for a memory games partly due to different images, colors and above all the subconcious learning part of it. I wanted a game site that will be highly interactive with quiet and less distractive music to go with the game.
+
+
+
+### Fonts
+
+[Google Fonts!](https://fonts.google.com/) Two main fonts were used for the whole sites:
+
+* Supermercado for the body with fall back on san serif.
+* Langar for the headers with with fall back on san serif.
+
+
+
+
+
+
+### Design
+
+#### **Colour Scheme**
+
+The developer used [eggradients](https://www.eggradients.com/shades-of-green-color) to choose colors that were used in creating the website. Particularly, 5 colors were used and they signify what the sites stands for.
+  * RGBArgba(90, 150, 210, 0.95): this is a shade of light-blue which is very important in in nature and climate change, it also signifies healing and health for sustainable development.
+  * #ffffff: it signify purity and pristine.
+  * RGBA(255,36,0, 0.8): It is a shade of red for cheerfulness, energy, and enthusiasm for the future and hope those for that need support.
+  * Goldenrod this is a shade of golden-yellow, it signifies the worthiness.
+  * rgba(0, 73, 83, 0.9): It is Sherpa Blue, it signifies the sky and the sea.
+  * #777777: It is form of dark gray.
+  * #FFBB89: It is Orange-like color which signifies creativity and vitality
+  * rgba(195, 212, 37, 0.8)
+
+ 
+ 
+
+ ### Content Section
+For the game section, the cards will be layed out in a 4 by 4 grid for all devices. User will start by clicking on the slightly dark transparent overlay. Once started the user will hear the music background and clock will be starts counting down. The game title will be at the top.  The cards will flip on clicking and players will have to match pairs. If they are wrong cards flip back and the player continues. When the cards matches, that is, the center images at the card's front, it will sway in a dancing animation and remained cardfront, flipped.  If the user can't complete the game before the time runs out, there will be a Game over message accompanied with some melancholic sound for losing. In addition there will be a click to restart message on the screen so that the user can click again on the screen to try again. If all the cards matched, the user will get a Winner message on the screen and click to restart mesage, also there will an upbeat victory sound. The overall objective, is to get user engaged.
+
+ 
+
+* **Stack Overflow**: [Stack Overflow](https://fontawesome.com/)	Developer used the websites to check for proper syntax while creating the project.
+
+
+
+
+
+
+
+
+
+
+
+# **Technology Used**
+
+*The follwoing Technologies, Frameworks, and Libraries that were used to write the project.*
+
+* **HTML**: HTML/HTML5 the language used to create the form and add content to the website
+* **CSS**: It provides the styling for the website.
+* **Git**: It was used for version control which uses the Gitpod terminal to commit to Git and Push codes to GitHub
+* **GitHub**:         [GitHub](https://github.com/) Developer used GitHub as a project repository to save, and as a hosting service to live site.
+* **Gitpod**: The project used the Gitpod IDE as my workpsce to develop the website.
+* **Icons**:          [Font Awesome](https://fontawesome.com/) Social Media Icons were taken from this site.
+* **JQuery**:         [BootStrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Developer embedded JQuery from Bootstrap.
+* **Javascript**:     [BootStrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Developer used Bootstrap for the Navbar, Grids, Carousel and modal form included in this project.
+* **CSS validator**:  [CSS validator](https://jigsaw.w3.org/css-validator/) The site was used to test for the validity of my CSS code. 
+* **HTML validator**: [HTML validator](https://validator.w3.org/) The site was used to test for the validity of my HTML code.
+* **Hover.css**:      [Hover.css](https://ianlunn.github.io/Hover/) The site was used on the navigation bar links and Social Media icons in the footer to create an hovering effects.
+* **Balsamiq**:       [Balsamiq](https://balsamiq.com/) The site was used to create the wireframes during the design stage of the project.
+* **freeformatter**:  [freeformatter](https://www.freeformatter.com/html-formatter.html) The site was used to format HTML.
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -260,13 +343,16 @@ see here for the images [media@600](assets/testing/responsivecode2.png), and [me
     * There was an issue of a button that has to be toggle twice before it reponded. The button was the Read More button in the centre of the jumbotron in the homepage. 
     * the major problem was because  <button class="btn btn-lg btn--cta btn--red hvr-grow-shadow read-moreButton expandToggle" onclick="readMore()">Read More..</button> the expandToggle class was used and also, in the Javascript the style was displayed none instead of block as can be seen in code below.
     {(var showContent = document.getElementById("showMoreContent1"); if (showContent.style.display === "none") )}
-    
+
     <img src="assets/testing/footerfloat1.png">
 
 ### Resolve 
 * The class expandToggle was removed and the style-display was changed from none to block.
 
 
+### Unresolve issues
+One unresolved issue was in the game section, when the 
+card flips, the its background is white. the card is not supposed to have a whit background when it flips, although when card flips completely , the white background does not show. I did lot of researches but could fix it yet. It is one problem that the developer would fix if there was enough time.
 
 
 
