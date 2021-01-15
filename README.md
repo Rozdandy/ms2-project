@@ -747,10 +747,48 @@ The original website started by making sketches on paper, a rough work of what w
 
 
 
+# **Deployment**
 
 
 
+Deployment
+The website was developed using both GitPod and using Git pushed to GitHub, it host the repository. The following steps were made to deploy the site live using GitHub Pages:
 
+* GitHub was  in the browser.
+* Signed in with my username and password.
+* Then choose “YOUR REPOSITORIES” from the dropdown’s
+* Navigated to "ms2-project" and clicked and the project will opened in a new page.
+* In the top navigation clicked settings.
+* Scrolled down to the GitHub Pages area.
+* Master Branch was selected from the Source dropdown menu.
+* Clicked the save button to confirm.
+* " ms2-project" became live on GitHub Pages.
+
+
+
+**How to clone / run this project locally, for other users**
+
+1.	On GitHub, go to my Github page.
+2.	Go to the repositories by clicking on the dropdown light-green button located at the far-right top.
+3.  Then choose “YOUR REPOSITORIES” from the dropdown’s.
+4.	At the repositories page, click on the title of the project “ms2-project”, the project will open in a new page.
+5.  On the page and just above it is a Green button called "code", click on it to reveal the dropdown.
+6.  Select and click "Download Zip" from the dropdown’s. The file will be downloaded on your local computer.
+7.  Select the downloaded file on your local computer system, click on the file to extract.
+8.  Click on the "index.html" link of the extracted file and site would be deployed.
+
+
+# OR
+
+1.	On GitHub, go to my Github page.
+2.	Go to the repositories by clicking on the dropdown light-green button located at the far-right top.
+3.	Then choose “YOUR REPOSITORIES” from the dropdown’s.
+4.	At the repositories page, click on the title of the project “myfirst-miletone-project”
+5.	Under the repository name, click Clone or download.
+6.	In the Clone with HTTPs section, click to copy the clone URL for the repository.
+7.	Open Githpod workspace, that is Git Bash.
+8.	Using the command line, type git clone, and then paste the URL you copied in Step 6.
+9.	Press Enter. Your local clone will be created.
 
 
 
