@@ -1,7 +1,7 @@
 # **CCMG**
 
-<img src="assets/testing/hommepage.png">
-<img src="assets/testing/game.png">
+<img src="assets/testing/hommepageSH.png">
+<img src="assets/testing/gameHome.png">
 
 ### **Website link:** 
 
@@ -235,12 +235,6 @@ For the game section, the cards will be layed out in a 4 by 4 grid for all devic
 
 
 
-
-
-
-
-
-
 # Testing
 
 
@@ -287,8 +281,6 @@ JS-Hint Findings: When using the tool about 15 warnings flagged, warnings has to
  * Chrome DevTools
         [Lighthouse test](assets/testing/gamemobilLit.png)
         [Lighthouse test](assets/testing/lighthouse2.png)
-
-
 
 
 * [lighthouse Audit](https://developers.google.com/web/tools/lighthouse): Performance, and accessibility test was conducted using the lighthouse tool option on chrome developer tool and generating a report for the selected device, to ensure the suitability and maximum performance for users. The first image was Intially generated for desktop view.
@@ -653,10 +645,11 @@ card flips, the its background is white. the card is not supposed to have a whit
 ### *Game Startup page*
 
  * The page loads with a ready-to-use display such as **Click to Start**. 
- * It has a slightly dark transparent overlay. Game starts on click and the timer starts counting down while the flip notes the number of flips the user makes. * Since the aim of the game is to test user memory against the timer, the start click also starts the clock this is to maximize time. Below image is the start-up screen.
+ * It has a slightly dark transparent overlay. Game starts on click and the timer starts counting down while the flip notes the number of flips the user makes. 
+ * Since the aim of the game is to test user memory against the timer, the start click also starts the clock this is to maximize time. Below image is the start-up screen.
 
 
-
+<img src="assets/testing/startG.png">
 
 
 ### *Active Game Mode and back of cards*
@@ -669,7 +662,7 @@ card flips, the its background is white. the card is not supposed to have a whit
 * All the images rotate clockwisely.
 
 image here 
-
+<img src="assets/testing/activeG.png">
 
 
 
@@ -679,6 +672,7 @@ image here
 * Those images except the ones at the center are the likely impact of climate change, while the ones in center are the likely mitigation and adaptation means to climate change.
 * The card images enlarge when player or user hovers over the front of the cards, it animates and grows toward the center of the card.
 
+<img src="assets/testing/flipcard.png">
 
 
 
@@ -686,22 +680,28 @@ image here
 * When a pair of cards matches on clicks, the cards will sway left to right in dancing animation and a clapping sounds and the matched cards remained face front.
 
 
+<img src="assets/testing/matchcard.png">
 
 
+* If the pair of cards did not match both cards will display momentarily and then flip back to be hidden.
 
-* If the pair of cards did not match both cards will display momentarily and then flipped back to be hidden.
-
-
+<img src="assets/testing/unmatch.png">
 
 
 ## *Game Over and victory mood*
 
 * There are different displays when the game ends, loser and winner.
 * The won game screen displays victory with a resounding victory sound and an overlayed click to restart.
+
+<img src="assets/testing/victoryCad.png">
+
+
+
+
 * The lost game screen displays game over with a melancholy sound, and an overlayed click to restart.
 
 
-
+<img src="assets/testing/gameOva.png">
 
 
 
