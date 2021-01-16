@@ -793,7 +793,97 @@ The website was developed using both GitPod and using Git pushed to GitHub, it h
 
 
 
+## Credits
+
+### contents
+
+**References:**
+
+Sources of Articles: All the articles used in the site were obtained from the sites below;
+
+Logo: The site logo was created free from the below website;
+
+    *https://www.freelogodesign.org/preview?lang=en&autodownload=true&logo=9ac215ca-c2a7-4428-a30d-7e6b875b17b6
+
+    * https://www.nationalgeographic.com/environment/global-warming/global-warming-effects/
+
+    * https://www.wwf.org.uk/learn/effects-of/climate-change
+
+    * https://www.nrdc.org/stories/global-climate-change-what-you-need-know
+
+    * https://givingcompass.org/partners/climate-action/10-important-climate-change-terms?gclid=Cj0KCQiA2af-BRDzARIsAIVQUOeQn_w_5-RDQ_o-zV_g1sR9gVtQh-jz3-dqQnDcBYYZxjAQYZS0x1MaAjHNEALw_wcB
+
+    * https://climatechange.chicago.gov/climatechange/glossary-climate-change-terms
+
+    * https://climaterealityproject.org/blog/key-terms-you-need-understand-climate-change
+
+    * https://www.worldwildlife.org/threats/effects-of-climate-change
+
+    *https://projectworldimpact.com/cause/Climate-Change-Effects?gclid=CjwKCAiA_9r_BRBZEiwAHZ_v18albsv2c_8ZvGiiOf2M9ueVIB4BvAd2BrEgYyvRs85aNujt_GKuIBoCvCgQAvD_BwE
+
+    * https://warmheartworldwide.org/climate-change/?gclid=CjwKCAiA_9r_BRBZEiwAHZ_v16h8vtVOSHyhn3B0dFt-dzY7uhqCg3t6FiYCD5cajyGJoSefeUFHhRoCuosQAvD_BwE
+
+* Sources of Quotes: https://www.climate-change-guide.com/quotes-on-climate-change.html
+
+* Web Dev simplified AND PortEXE: These two videos were great source of inspirations to me, the thought of building the climate change memory game came to me after watching the two videos, thr tutorials helped in understanding JavaScript more and coding the game. See vidoe links below;
+ https://www.youtube.com/watch?v=28VfzEiJgy4 and https://www.youtube.com/watch?v=3uuQ3g92oPQ&feature=youtu.be
+
+
+
+## **Media**
+
+All of the images in the site were supplied drom the sources below.
+
+Below are the references of those images:
+
+* Game background Image:
+
+    *   https://www.pikrepo.com/fdabr/black-and-white-unk-text
+
+* Quote image: 
+
+  
+    * https://www.pikrepo.com/fnuon/gray-curved-road-beside-arrow-left-signage-under-white-cloud-blue-skies#google_vignette
+
+    * https://www.pikrepo.com/fomjf/brown-wooden-fence-near-trees-covered-in-snow
+
+    * https://www.pikrepo.com/frdlf/red-leaf-tree-digital-wallpaper
+
+
+* Game background Image:
+
+   * https://pngtree.com/freebackground/sky-vector-background_1223263.html
+
+* All the images used in building the game section except the background image was taken in this site 
+    * https://www.pinclipart.com/
+    * https://imgbin.com/download/vT7j663P
+
+
+* All Sounds: 
+   * https://www.freesfx.co.uk/Default.aspx
+
+   * https://www.bensound.com/
+
+* Web Dev simplified AND PortEXE: These two videos were great source of inspirations to me, the thought of building the climate change memory game came to me  after watching the two videos, thr tutorials helped in understanding JavaScript more and coding the game. See vidoe links below;
+ https://www.youtube.com/watch?v=28VfzEiJgy4 and https://www.youtube.com/watch?v=3uuQ3g92oPQ&feature=youtu.be
+
+
+
+**Generally:**
+The spinning effect of the back of my cards in the game section, code was lifted here; 
+
+ * https://codepen.io/teerapuch/pen/vLJXeR 
+ * the lecture videos and notes
+ * [Stack overflow](https://stackoverflow.com/) To seek solutions to fix bugs.
+ * [W3Schools](https://www.w3schools.com/) I used this site for references in many instances.
 
 
 
 
+# **Acknowledgements**
+I received inspiration for this project from:
+
+    * God for Mercies.
+    * Special to [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ) and [PortEXE](https://www.youtube.com/watch?v=28VfzEiJgy4) for the tutorial.
+    * My mentor for advice and feedback.
+    * Student care and student tutors for being there when I needed them most.

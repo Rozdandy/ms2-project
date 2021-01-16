@@ -171,6 +171,8 @@ div.game-container {
     height: 160px;
     width: 115px;
     border-radius: 12px;
+    background-color: transparent;
+    border-color: transparent;
     
 }
 
@@ -210,7 +212,7 @@ div.game-container {
 }
 
 .card-back {
-    background-color: rgba(195, 212, 37, 0.8); 
+    background-color: rgba(195, 212, 37, 0.99); 
     border-color: rgb(235, 53, 21);
 }
 
@@ -236,7 +238,7 @@ div.game-container {
 }
 
 .card-front {
-  background-color: rgba(78, 11, 39, 0.1);
+  background-color: #fafafa;
   border-color: #333;
   transform: rotateY(180deg);
 }
@@ -383,6 +385,7 @@ div.game-container {
     height: 120px;
     width: 86.25px;
     border-radius: 10px;
+
     
 }
 
