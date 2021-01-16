@@ -1,6 +1,6 @@
 # **CCMG**
 
-<img src="assets/testing/hommepageSH.png">
+<img src="assets/testing/homepageSH.png">
 <img src="assets/testing/gameHome.png">
 
 ### **Website link:** 
@@ -10,6 +10,19 @@
 [CCMG](https://rozdandy.github.io/ms2-project/.)
 
 Climate Change Memory Game is pratically educative site, it is for those that care about the health of the planet earth. The goal is to provide an intuitive and interactive site which is user friendly to everyone in all ages and profession. The homepage provide an educating information on climate change which include some notable quotes of leaders across the world. While the game section is a memory game using cards whereby users are to match pairs. The cards are embossed with intriguing climate change related items and terms such as, GHG green house gases molecules, climate change impact, and mitigations pictures. Users will use their memory and skill to match the pairs before the time finishes.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # **UX (User Experience)**
 
@@ -80,6 +93,68 @@ The website objective is mainly to sensitize the users on what climate change me
 
 
 
+
+
+
+## Design Choices
+
+
+
+The concept behind this site was borne from my love for the planet, on how better human can treat her so that this generation can bequeath her to the next generation. Also, the idea of building the game was inspired by a Youtube video [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ) that I watched on how a Halloween card was built.  I therefore, thought of how to sensitize audience on climate change impact, mitigation and adaptation while at the same having fun.
+
+I thought the concept would be good for a memory games partly due to different images, colors and above all the subconcious learning part of it. I wanted a game site that will be highly interactive with quiet and less distractive music to go with the game.
+
+
+
+### Fonts
+
+[Google Fonts!](https://fonts.google.com/) Two main fonts were used for the whole sites:
+
+* Supermercado for the body with fall back on san serif.
+* Langar for the headers with with fall back on san serif.
+
+
+
+
+
+#### **Colour Scheme**
+
+The developer used [eggradients](https://www.eggradients.com/shades-of-green-color) to choose colors that were used in creating the website. Particularly, 5 colors were used and they signify what the sites stands for.
+  * RGBArgba(90, 150, 210, 0.95): this is a shade of light-blue which is very important in in nature and climate change, it also signifies healing and health for sustainable development.
+  * #ffffff: it signify purity and pristine.
+  * RGBA(255,36,0, 0.8): It is a shade of red for cheerfulness, energy, and enthusiasm for the future and hope those for that need support.
+  * Goldenrod this is a shade of golden-yellow, it signifies the worthiness.
+  * rgba(0, 73, 83, 0.9): It is Sherpa Blue, it signifies the sky and the sea.
+  * #777777: It is form of dark gray.
+  * #FFBB89: It is Orange-like color which signifies creativity and vitality
+  * rgba(195, 212, 37, 0.8)
+
+ 
+ 
+
+ ### Content Section
+For the game section, the cards will be layed out in a 4 by 4 grid for all devices. User will start by clicking on the slightly dark transparent overlay. Once started the user will hear the music background and clock will be starts counting down. The game title will be at the top.  The cards will flip on clicking and players will have to match pairs. If they are wrong cards flip back and the player continues. When the cards matches, that is, the center images at the card's front, it will sway in a dancing animation and remained cardfront, flipped.  If the user can't complete the game before the time runs out, there will be a Game over message accompanied with some melancholic sound for losing. In addition there will be a click to restart message on the screen so that the user can click again on the screen to try again. If all the cards matched, the user will get a Winner message on the screen and click to restart mesage, also there will an upbeat victory sound. The overall objective, is to get user engaged.
+
+
+
+
+
+  **Wireframe**
+
+The original website started by making sketches on paper, a rough work of what was intended to be created.  As the idea became clearer, the knowledge was transferred to [Balsamiq App](https://balsamiq.com/)for the design architechture and  the site wireframe was designed. Although, there were some minor changes in the design but mostly the layout on the app gave the guidance, a step by step guard to build the final website. Below is the link to the wireframe for the desktop and mobile devices.
+
+**View all**
+ * [Wireframe](wireframe/mockup.pdf)
+        
+
+
+
+
+
+
+
+
+
 # **Features:**
 
 ## * Header, Main body divided into sections and Footer, and same as the Game section*
@@ -138,48 +213,6 @@ This section is located at the bottom-most part of the page. It provides the use
 
 
 
-## Design Choices
-
-
-
-The concept behind this site was borne from my love for the planet, on how better human can treat her so that this generation can bequeath her to the next generation. Also, the idea of building the game was inspired by a Youtube video [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ) that I watched on how a Halloween card was built.  I therefore, thought of how to sensitize audience on climate change impact, mitigation and adaptation while at the same having fun.
-
-I thought the concept would be good for a memory games partly due to different images, colors and above all the subconcious learning part of it. I wanted a game site that will be highly interactive with quiet and less distractive music to go with the game.
-
-
-
-### Fonts
-
-[Google Fonts!](https://fonts.google.com/) Two main fonts were used for the whole sites:
-
-* Supermercado for the body with fall back on san serif.
-* Langar for the headers with with fall back on san serif.
-
-
-
-
-
-
-### Design
-
-#### **Colour Scheme**
-
-The developer used [eggradients](https://www.eggradients.com/shades-of-green-color) to choose colors that were used in creating the website. Particularly, 5 colors were used and they signify what the sites stands for.
-  * RGBArgba(90, 150, 210, 0.95): this is a shade of light-blue which is very important in in nature and climate change, it also signifies healing and health for sustainable development.
-  * #ffffff: it signify purity and pristine.
-  * RGBA(255,36,0, 0.8): It is a shade of red for cheerfulness, energy, and enthusiasm for the future and hope those for that need support.
-  * Goldenrod this is a shade of golden-yellow, it signifies the worthiness.
-  * rgba(0, 73, 83, 0.9): It is Sherpa Blue, it signifies the sky and the sea.
-  * #777777: It is form of dark gray.
-  * #FFBB89: It is Orange-like color which signifies creativity and vitality
-  * rgba(195, 212, 37, 0.8)
-
- 
- 
-
- ### Content Section
-For the game section, the cards will be layed out in a 4 by 4 grid for all devices. User will start by clicking on the slightly dark transparent overlay. Once started the user will hear the music background and clock will be starts counting down. The game title will be at the top.  The cards will flip on clicking and players will have to match pairs. If they are wrong cards flip back and the player continues. When the cards matches, that is, the center images at the card's front, it will sway in a dancing animation and remained cardfront, flipped.  If the user can't complete the game before the time runs out, there will be a Game over message accompanied with some melancholic sound for losing. In addition there will be a click to restart message on the screen so that the user can click again on the screen to try again. If all the cards matched, the user will get a Winner message on the screen and click to restart mesage, also there will an upbeat victory sound. The overall objective, is to get user engaged.
-
  
 
 
@@ -221,6 +254,25 @@ For the game section, the cards will be layed out in a 4 by 4 grid for all devic
 
 
 
+
+### Future Features to be Implemeneted 
+
+   *-for the homepage*
+
+* To implement user accounts to keep details securely.
+* To ensure the functionality of the email and sign-up form. 
+* Add my personal profile.
+* More quotes the quote section
+* To include have access to a huge variety of games for learning a second or third language.
+* The Social media such as the facebook, instagram, twitter, linkedin will open link to CCMG instead of developer personal account. 
+
+   *-for the game*
+
+1. The the cardgame html will be fully be built with JavaScript or Json for easy scaling, flexibility, maintainance and to add new features. 
+
+2. Different Levels
+
+ * To add different levels in game, which will include easy level and hard level. This would be archieved either by increasing the number of cards with lesser time or other new techniques. Having different difficulties level in the game would sure get users to test to be more engaged espacialyy when it comes to tesing their memories against racing time. 
 
 
 
@@ -283,7 +335,7 @@ JS-Hint Findings: When using the tool about 15 warnings flagged, warnings has to
         [Lighthouse test](assets/testing/lighthouse2.png)
 
 
-* [lighthouse Audit](https://developers.google.com/web/tools/lighthouse): Performance, and accessibility test was conducted using the lighthouse tool option on chrome developer tool and generating a report for the selected device, to ensure the suitability and maximum performance for users. The first image was Intially generated for desktop view.
+* [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse): Performance, and accessibility test was conducted using the lighthouse tool option on chrome developer tool and generating a report for the selected device, to ensure the suitability and maximum performance for users. The first image was Intially generated for desktop view.
 
 <img src="assets/testing/lighthousetest1.png">
 
@@ -301,51 +353,6 @@ The results for mobile is 90%, although it is not terrible such a score but woul
 
 
 
-## Bugs and resolve
-
-1. **Naviagational bar**
-    * In the game section, the Naviagational bar overlaps the Timer and the flipper due to the height of the game container both on desktop and in mobile view.
-    * In addition, in the mobile view of the game, the logo overlaps the timer and flip counter.
-
- ### Resolve
- * The issues was resolved by making the colour and footer of the game section transparent, also by changing the styling from justify-content-center to  justify-content: space-between;.
- * Lastly, on the mobile device the logo was hidden.
-
-1. **Responsiveness**
-
-* Intially, the following problems were identified
-  <img src="assets/testing/mobileunfit.png">
- * The 2 layout columns was not just good for the mobile view, it was not user-friendly, that was way code was initially built.
- length of card was just too long for media of 600px and below.
- ### Resolve
-* The problem was resolve by applying media query of max-width 600px, and changing the layout into 4 columns.
-* The method worked for all the small mobile devices except Iphone 5 series. Again, I had to apply another media query of max-width 350px. That resolve problems of Responsiveness and compactibility.
-see here for the images [media@600](assets/testing/responsivecode2.png), and [media@600](assets/testing/responsivecode.png)
-
-2. **Floating footer**
-   * There was the footer problem that would not stick to the bottom. After doing lot of research by googling, and watching lot of youtube videos, finally there was solution after an interactive section with an online tutor.
-    <img src="assets/testing/footerfloat.png">
-
-### Resolve
-
- * It was because I hard coded the footer height. I had to remove the height value for it to be resolve
-    <img src="assets/testing/footerfloat1.png">
-
-
-3. **Toggle Issue**
-    * There was an issue of a button that has to be toggle twice before it reponded. The button was the Read More button in the centre of the jumbotron in the homepage. 
-    * the major problem was because  <button class="btn btn-lg btn--cta btn--red hvr-grow-shadow read-moreButton expandToggle" onclick="readMore()">Read More..</button> the expandToggle class was used and also, in the Javascript the style was displayed none instead of block as can be seen in code below.
-    {(var showContent = document.getElementById("showMoreContent1"); if (showContent.style.display === "none") )}
-
-    <img src="assets/testing/footerfloat1.png">
-
-### Resolve 
-* The class expandToggle was removed and the style-display was changed from none to block.
-
-
-### Unresolve issues
-One unresolved issue was in the game section, when the 
-card flips, the its background is white. the card is not supposed to have a whit background when it flips, although when card flips completely , the white background does not show. I did lot of researches but could fix it yet. It is one problem that the developer would fix if there was enough time.
 
 
 
@@ -464,13 +471,6 @@ card flips, the its background is white. the card is not supposed to have a whit
         2. There is the sign up red button to right top of the nav-bar.
         3. A click on it will open a model form over the page which you can fill and submit. 
         
-
-
-
-
-
-
-
 
 
 
@@ -633,13 +633,6 @@ card flips, the its background is white. the card is not supposed to have a whit
 
 
 
-
-
-
-
-
-
-
 ## * The Game section*
 
 ### *Game Startup page*
@@ -706,24 +699,6 @@ image here
 
 
 
-### Future Features to be Implemeneted 
-
-   *-for the homepage*
-
-* To implement user accounts to keep details securely.
-* To ensure the functionality of the email and sign-up form. 
-* Add my personal profile.
-* More quotes the quote section
-* To include have access to a huge variety of games for learning a second or third language.
-* The Social media such as the facebook, instagram, twitter, linkedin will open link to CCMG instead of developer personal account. 
-
-   *-for the game*
-
-1. The the cardgame html will be fully be built with JavaScript or Json for easy scaling, flexibility, maintainance and to add new features. 
-
-2. Different Levels
-
- * To add different levels in game, which will include easy level and hard level. This would be archieved either by increasing the number of cards with lesser time or other new techniques. Having different difficulties level in the game would sure get users to test to be more engaged espacialyy when it comes to tesing their memories against racing time. 
 
 
 
@@ -731,13 +706,55 @@ image here
 
 
 
-  **Wireframe**
 
-The original website started by making sketches on paper, a rough work of what was intended to be created.  As the idea became clearer, the knowledge was transferred to [Balsamiq App](https://balsamiq.com/)for the design architechture and  the site wireframe was designed. Although, there were some minor changes in the design but mostly the layout on the app gave the guidance, a step by step guard to build the final website. Below is the link to the wireframe for the desktop and mobile devices.
+## Bugs and resolve
 
-**View all**
- * [Wireframe](wireframe/mockup.pdf)
-        
+1. **Naviagational bar**
+    * In the game section, the Naviagational bar overlaps the Timer and the flipper due to the height of the game container both on desktop and in mobile view.
+    * In addition, in the mobile view of the game, the logo overlaps the timer and flip counter.
+
+ ### Resolve
+ * The issues was resolved by making the colour and footer of the game section transparent, also by changing the styling from justify-content-center to  justify-content: space-between;.
+ * Lastly, on the mobile device the logo was hidden.
+
+1. **Responsiveness**
+
+* Intially, the following problems were identified
+  <img src="assets/testing/mobileunfit.png">
+ * The 2 layout columns was not just good for the mobile view, it was not user-friendly, that was way code was initially built.
+ length of card was just too long for media of 600px and below.
+ ### Resolve
+* The problem was resolve by applying media query of max-width 600px, and changing the layout into 4 columns.
+* The method worked for all the small mobile devices except Iphone 5 series. Again, I had to apply another media query of max-width 350px. That resolve problems of Responsiveness and compactibility.
+see here for the images [media@600](assets/testing/responsivecode2.png), and [media@600](assets/testing/responsivecode.png)
+
+2. **Floating footer**
+   * There was the footer problem that would not stick to the bottom. After doing lot of research by googling, and watching lot of youtube videos, finally there was solution after an interactive section with an online tutor.
+    <img src="assets/testing/footerfloat.png">
+
+### Resolve
+
+ * It was because I hard coded the footer height. I had to remove the height value for it to be resolve
+    <img src="assets/testing/footerfloat1.png">
+
+
+3. **Toggle Issue**
+    * There was an issue of a button that has to be toggle twice before it reponded. The button was the Read More button in the centre of the jumbotron in the homepage. 
+    * the major problem was because  <button class="btn btn-lg btn--cta btn--red hvr-grow-shadow read-moreButton expandToggle" onclick="readMore()">Read More..</button> the expandToggle class was used and also, in the Javascript the style was displayed none instead of block as can be seen in code below.
+    {(var showContent = document.getElementById("showMoreContent1"); if (showContent.style.display === "none") )}
+
+    <img src="assets/testing/footerfloat1.png">
+
+### Resolve 
+* The class expandToggle was removed and the style-display was changed from none to block.
+
+
+### Unresolve issues
+One unresolved issue was in the game section, when the 
+card flips, the its background is white. the card is not supposed to have a whit background when it flips, although when card flips completely , the white background does not show. I did lot of researches but could fix it yet. It is one problem that the developer would fix if there was enough time.
+
+
+
 
 
 
