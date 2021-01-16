@@ -3,28 +3,16 @@
 <img src="assets/testing/homepageSH.png">
 <img src="assets/testing/gameHome.png">
 
-### **Website link:** 
+### **Website links:** 
 
 *my github link*: [Rozdandy](https://github.com/Rozdandy?tab=repositories)
 
-[CCMG](https://rozdandy.github.io/ms2-project/.)
+*Site*:[CCMG](https://rozdandy.github.io/ms2-project/.)
 
 Climate Change Memory Game is pratically educative site, it is for those that care about the health of the planet earth. The goal is to provide an intuitive and interactive site which is user friendly to everyone in all ages and profession. The homepage provide an educating information on climate change which include some notable quotes of leaders across the world. While the game section is a memory game using cards whereby users are to match pairs. The cards are embossed with intriguing climate change related items and terms such as, GHG green house gases molecules, climate change impact, and mitigations pictures. Users will use their memory and skill to match the pairs before the time finishes.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-# **UX (User Experience)**
+# **UX (USER EXPERIENCE)**
 
 ## Project objectives
 
@@ -43,21 +31,13 @@ The website objective is mainly to sensitize the users on what climate change me
 ## Ownership  Goals
 
 * Build a good engaging and interactive website with real life Experience.
-
 * To show good understanding of JavaScript and other technologies.
-
 * To educate people sublimianlly through an interactive and engaging game.
-
 * Build a site with game features that is easy to maintained and scaled and adapted by others.
-
 * As a site developer, I want to develop an interactive website which user could play a game while learning, and sign up for more.
-
 * As a site developer, I want to develop a site that is user friendly, responsive compactible with many devices including mobile ones.
-
 * As a site owner, I want my users to be able to connect with the developer through social media platforms.
-
 * As a site owner, I want to be able to showcase my skills and portfolio.
-
 * As a site owner, I want my users to be able to learn more about climate change and be more concious of the impacts.
 
 
@@ -89,33 +69,18 @@ The website objective is mainly to sensitize the users on what climate change me
 * As a user, I want to be able to click to sign up or contact the site owner or follow on social media without having to leave the page.
 
 
-
-
-
-
-
-
-
 ## Design Choices
 
-
-
 The concept behind this site was borne from my love for the planet, on how better human can treat her so that this generation can bequeath her to the next generation. Also, the idea of building the game was inspired by a Youtube video [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ) that I watched on how a Halloween card was built.  I therefore, thought of how to sensitize audience on climate change impact, mitigation and adaptation while at the same having fun.
-
-I thought the concept would be good for a memory games partly due to different images, colors and above all the subconcious learning part of it. I wanted a game site that will be highly interactive with quiet and less distractive music to go with the game.
-
+I supposed the concept would be good for a memory games partly due to different images, colors and above all the subconcious learning part of it. I wanted a game site that will be highly interactive with quiet and less distractive music to go with the game.
 
 
-### Fonts
+#### Fonts
 
 [Google Fonts!](https://fonts.google.com/) Two main fonts were used for the whole sites:
 
 * Supermercado for the body with fall back on san serif.
 * Langar for the headers with with fall back on san serif.
-
-
-
-
 
 #### **Colour Scheme**
 
@@ -129,15 +94,13 @@ The developer used [eggradients](https://www.eggradients.com/shades-of-green-col
   * #FFBB89: It is Orange-like color which signifies creativity and vitality
   * rgba(195, 212, 37, 0.8)
 
- 
- 
 
- ### Content Section
+ ## Content Section
+
 For the game section, the cards will be layed out in a 4 by 4 grid for all devices. User will start by clicking on the slightly dark transparent overlay. Once started the user will hear the music background and clock will be starts counting down. The game title will be at the top.  The cards will flip on clicking and players will have to match pairs. If they are wrong cards flip back and the player continues. When the cards matches, that is, the center images at the card's front, it will sway in a dancing animation and remained cardfront, flipped.  If the user can't complete the game before the time runs out, there will be a Game over message accompanied with some melancholic sound for losing. In addition there will be a click to restart message on the screen so that the user can click again on the screen to try again. If all the cards matched, the user will get a Winner message on the screen and click to restart mesage, also there will an upbeat victory sound. The overall objective, is to get user engaged.
 
 
-
-
+## Content Section
 
   **Wireframe**
 
@@ -147,17 +110,9 @@ The original website started by making sketches on paper, a rough work of what w
  * [Wireframe](wireframe/mockup.pdf)
         
 
+# **FEATURES**
 
-
-
-
-
-
-
-
-# **Features:**
-
-## * Header, Main body divided into sections and Footer, and same as the Game section*
+## Header, Main body divided into sections and Footer, and same as the Game section
 
   **A highly responsive mobile first design using a [Bootstrap framework](https://getbootstrap.com/docs/5.0/getting-started/introduction/).**
 
@@ -210,51 +165,6 @@ This section is located at the bottom-most part of the page. It provides the use
   * *Address*
 
 
-
-
-
- 
-
-
-
-# **Technology Used**
-
-*The follwoing Technologies, Frameworks, and Libraries that were used to write the project.*      
-
-
-
-# **Technology Used**
-
- #### Main Languages
-
-* [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML): HTML/HTML5 the language used to create the form and add content to the website     
-* [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS):It provides the styling for the website.
-* [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-#### Libraries         
-
-* [**jQuery**](https://jquery.com/)
-* [BootStrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Used to design a mobile-first responsive website layout, modal forms and accordion.
-
-#### tools  
-
-* **Git**: It was used for version control which uses the Gitpod terminal to commit to Git and Push codes to GitHub
-* **GitHub**:         [GitHub](https://github.com/) Developer used GitHub as a project repository to save, and as a hosting service to live site.
-* **Gitpod**:         [GitHub](https://www.gitpod.io/) The project used the Gitpod IDE as my workspace to develop the website. it linked to GitHub repository to store data when coding.
-* **Icons**:          [Font Awesome](https://fontawesome.com/) Social Media Icons were taken from this site.
-* **JQuery**:         [**jQuery**](https://jquery.com/) used to simplify some DOM manipulation for certain functions
-
-* **CSS validator**:  [CSS validator](https://jigsaw.w3.org/css-validator/) The site was used to test for the validity of my CSS code. 
-* **HTML validator**: [HTML validator](https://validator.w3.org/) The site was used to test for the validity of my HTML code.
-* **Hover.css**:      [Hover.css](https://ianlunn.github.io/Hover/) The site was used on the navigation bar links and Social Media icons in the footer to create an hovering effects.
-* **Balsamiq**:       [Balsamiq](https://balsamiq.com/) The site was used to create the wireframes during the design stage of the project.
-* **freeformatter**:  [freeformatter](https://www.freeformatter.com/html-formatter.html) The site was used to format HTML.
-* **Lighthouse**:     [Balsamiq](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) To audit the site perfomance and accessibility.
-* **Balsamiq**:       [Am I Responsive?](http://ami.responsivedesign.is/) It was used to take screenshot of devices to know if they responsive.
-
-
-
-
 ### Future Features to be Implemeneted 
 
    *-for the homepage*
@@ -276,65 +186,55 @@ This section is located at the bottom-most part of the page. It provides the use
 
 
 
+# **TECHNOLOGY USED**
+
+*The follwoing Technologies, Frameworks, and Libraries were used to write the project*      
+
+ ### Main Languages
+
+* [**HTML**](https://developer.mozilla.org/en-US/docs/Web/HTML): HTML/HTML5 the language used to create the form and add content to the website     
+* [**CSS**](https://developer.mozilla.org/en-US/docs/Web/CSS):It provides the styling for the website.
+* [**JavaScript**](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+#### Libraries         
+
+* [**jQuery**](https://jquery.com/)
+* [BootStrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) Used to design a mobile-first responsive website layout, modal forms and accordion.
+
+### Tools  
+
+* **Git**: It was used for version control which uses the Gitpod terminal to commit to Git and Push codes to GitHub
+* **GitHub**:         [GitHub](https://github.com/) Developer used GitHub as a project repository to save, and as a hosting service to live site.
+* **Gitpod**:         [GitHub](https://www.gitpod.io/) The project used the Gitpod IDE as my workspace to develop the website. it linked to GitHub repository to store data when coding.
+* **Icons**:          [Font Awesome](https://fontawesome.com/) Social Media Icons were taken from this site.
+* **JQuery**:         [**jQuery**](https://jquery.com/) used to simplify some DOM manipulation for certain functions
+* **CSS validator**:  [CSS validator](https://jigsaw.w3.org/css-validator/) The site was used to test for the validity of my CSS code. 
+* **HTML validator**: [HTML validator](https://validator.w3.org/) The site was used to test for the validity of my HTML code.
+* **Hover.css**:      [Hover.css](https://ianlunn.github.io/Hover/) The site was used on the navigation bar links and Social Media icons in the footer to create an hovering effects.
+* **Balsamiq**:       [Balsamiq](https://balsamiq.com/) The site was used to create the wireframes during the design stage of the project.
+* **freeformatter**:  [freeformatter](https://www.freeformatter.com/html-formatter.html) The site was used to format HTML.
+* **Lighthouse**:     [Balsamiq](https://developers.google.com/web/tools/lighthouse/?utm_source=devtools) To audit the site perfomance and accessibility.
+* **Balsamiq**:       [Am I Responsive?](http://ami.responsivedesign.is/) It was used to take screenshot of devices to know if they responsive.
 
 
-
-
-
-
-
-
-
-
-
-# Testing
-
+# TESTING
 
 ***Sites Validation***
 
 I used the following webistes to validate the site HTML, CSS, and Javascript files respectively.
 
-* [HTML-Validator](https://validator.w3.org/#validate_by_input")
-* [CSS-validator](https://jigsaw.w3.org/css-validator/#validate_by_input")
-* [Jshint](https://jshint.com/)
+* [HTML-Validator](https://validator.w3.org/#validate_by_input"): It validated the codes without any errors, view attached image here [HTML test](assets/testing/homepagehtml.png) and for the Game section  [HTML test](assets/testing/cardgamehtml.png).
 
+* [CSS-validator](https://jigsaw.w3.org/css-validator/#validate_by_input"): It checked the Styling, without any errors, view attcahed image here [CSS test](assets/testing/homepagecss.png) and for the GAME section [CSS test](assets/testing/cardcss.png).
 
-
-
-
-    * The HTML validated the codes without any errors.
-        [HTML test](assets/testing/homepagehtml.png) 
-    * Similarly, the CSS validator checked the Cascading Style Sheets (CSS), and nd it is without errors.
-        [CSS test](assets/testing/homepagecss.png)
-    * Furthermore, the website was tested on Google Chrome, Mozilla, Firefox, and Internet Explorer.
-      and it works perfectly in them.
-      * Systems: Macbook Pro Laptop, HP laptop, and Lenovo laptop.
-      * Browsers: Chrome, Opera, Edge, Firefox, Safari
-      * Phones and Tabs: iPad Pro, different Iphone series and androids
-
-    
- * -For the game testing-
-
-*    [HTML test](assets/testing/cardgamehtml.png)
-
-*    [CSS test](assets/testing/cardcss.png)
-
-* -For the JavaScript:
-JS-Hint Findings: When using the tool about 15 warnings flagged, warnings has to do basicallly with the 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6'). But i am sure confortable with it and the code is working perfectly,  however, I have taken note of that for next project. Also, there was another alert of one unused variable at the bottom. The variable was actually used and called in the home page section to control the a "Read More" button. However, all the codes work perfectly. Below are the two images.
-
-[Javascript test](assets/testing/jshint1.png)
-
-[Javascript test](assets/testing/jshint15.png)
+* [Jshint](https://jshint.com/): When using the tool about 15 warnings were flagged, the warnings have to do basicallly with the 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6'). But I am sure confortable with it and the code is working perfectly,  however, I have taken note of that for next project. Also, there was another alert of one unused variable at the bottom. The variable was actually used and called in the home page section to control the a "Read More" button. However, all the codes work perfectly. Below are the two images.
+[Javascript test](assets/testing/jshint1.png) and [Javascript test](assets/testing/jshint15.png).
 
 * Chrome DevTools
         [Javascript test](assets/testing/devToolz.png)
-
-
- * Chrome DevTools
         [Lighthouse test](assets/testing/gamemobilLit.png)
         [Lighthouse test](assets/testing/lighthouse2.png)
-
-
+     
 * [Lighthouse Audit](https://developers.google.com/web/tools/lighthouse): Performance, and accessibility test was conducted using the lighthouse tool option on chrome developer tool and generating a report for the selected device, to ensure the suitability and maximum performance for users. The first image was Intially generated for desktop view.
 
 <img src="assets/testing/lighthousetest1.png">
@@ -348,288 +248,239 @@ The results for mobile is 90%, although it is not terrible such a score but woul
 
 <img src="assets/testing/gamemobilLit.png">
 
+* Furthermore, the website was tested on the following: It works perfectly in them.
+
+      * Systems: Macbook Pro Laptop, HP laptop, and Lenovo laptop.
+      * Browsers: Chrome, Opera, Edge, Firefox, Safari
+      * Phones and Tabs: iPad Pro, different Iphone series and androids
 
 
-
-
-
-
-
-
-
-
-# **Testing user stories from UX section**
+## **Testing user stories from UX section**
 
 * As a user, I want to know the meaning of climate change.
 
-        1. In the HOME PAGE just below the navigation bar.
-        2. There is the article on Meaning of climate change. 
+    1. In the HOME PAGE just below the navigation bar.
+    2. There is the article on Meaning of climate change. 
         
 
 
 * As a visiting user, I want to know the meaning of the logo "CCMG".
 
-        1. A user in the Home Page will see the logo at left corner of the header.
-        2. When he/ she hovers cursor on the logo, it display Cimate Change Memory Game.
-        3. CCMG is the acronym for  Cimate Change Memory Game.
+    1. A user in the Home Page will see the logo at left corner of the header.
+    2. When he/ she hovers cursor on the logo, it display Cimate Change Memory Game.
+    3. CCMG is the acronym for  Cimate Change Memory Game.
 
 * As a user, I want to play the available game online, also I want to see a brief instructions on how to play the game.
 
 
-        1. Go to the Home page (or from any page).
-        2. On the Navbar is the 'PlayGame' link and icon.
-        3. On click shows Game instruction and the paly button.
-        4. The play button goes to the game page directly. 
+    1. Go to the Home page (or from any page).
+    2. On the Navbar is the 'PlayGame' link and icon.
+    3. On click shows Game instruction and the paly button.
+    4. The play button goes to the game page directly. 
 
 
 
 * As a potential user, I want to atleast read the instruction of the game from the Navigational bar and from the body of the site. 
 
-        1. At the homepage, and just on the navigational bar is a link with an icon called "Play Game".
-        .
-        3. Onclick on the link the accordion will reveal two buttons, first one is the game instruction
-        4. Also, within the body of the game, the green button which is called "Play the Climate Change Game" 
-        onclick, it will reveal the instruction of the game.
+    1. At the homepage, and just on the navigational bar is a link with an icon called "Play Game".
+    .
+    3. Onclick on the link the accordion will reveal two buttons, first one is the game instruction
+    4. Also, within the body of the game, the green button which is called "Play the Climate Change Game" 
+    onclick, it will reveal the instruction of the game.
 
 
 * As a visiting user, I would want to know how to register with CCMG.
 
-        1. At the Home Page, user will see navigation bar with several links.
-        2. Within the navigation link, they can click on the "Sign UP" and it will open the modal form.
-        3. The user can fill the form and submit it. 
+    1. At the Home Page, user will see navigation bar with several links.
+    2. Within the navigation link, they can click on the "Sign UP" and it will open the modal form.
+    3. The user can fill the form and submit it. 
 
 
 * As a user, I want to read about the impact of climate change on humans and on the ecosystem.
 
-        1. When the user arrives on the webpage, just within homepage, there is an article on Meaning of Climate Change and it Effect.          
-        2. Beneath the first paragraph of the article is a green Read More button
-        3. The text is hidden within the button, onclick it will open. 
+    1. When the user arrives on the webpage, just within homepage, there is an article on Meaning of Climate Change and it Effect.          
+    2. Beneath the first paragraph of the article is a green Read More button
+    3. The text is hidden within the button, onclick it will open. 
 
 
 * As a visiting user, I would want to know some climate Change terminologies to better understand climate change issues.
 
-        1. At the homepage, just beneath the first article is are two green buttons with accordion.
-        2. When a user click the first button to the left c"called Most Used Climate change Jargons, the accordion opens to reveal some climate change terminologies.
+    1. At the homepage, just beneath the first article is are two green buttons with accordion.
+    2. When a user click the first button to the left c"called Most Used Climate change Jargons, the accordion opens to reveal some climate change terminologies.
 
 
 * As a user, I want to be able to connect to the game within the body without scrolling up to the navigation bar. 
 
-        1. There is a second green button named "Play the Climate Change Game" and it is an accordion in the mainpage to the right. 
-            
-        2. When clicked, there are two contents, the instruction of the game and the play red button. ehrn clicked it takes the player to game page.
-    
-
+    1. There is a second green button named "Play the Climate Change Game" and it is an accordion in the mainpage to the right. 
+    2. When clicked, there are two contents, the instruction of the game and the play red button. ehrn clicked it takes the player to game page.
 
 
 * As a user, I would want to know world leaders' views and some quotable quotes on climate change.
 
-        1. When a user arrives on the webpage, he/she can see the navigation bar with several links
-            
-        2. On the bar is Quote link and icon, when the user clicked on it, it scroll smoothly to the section.
-        3. Also, the user can just scroll down the page just above the footer section are the quotes sliding carousel.
+    1. When a user arrives on the webpage, he/she can see the navigation bar with several links  
+    2. On the bar is Quote link and icon, when the user clicked on it, it scroll smoothly to the section.
+    3. Also, the user can just scroll down the page just above the footer section are the quotes sliding carousel.
         
 
 * The developer would want to be able to contact potential collaborators.
                
-        1. When a customer arrives on the webpage, he/she can see the navigation bar with several
-        links.
-        2. The user can fill their data on the Sign up form at the navigation bar and submit.
-        3. The developer can reach potential clients through their information submitted with the 
+    1. When a customer arrives on the webpage, he/she can see the navigation bar with several links.
+    2. The user can fill their data on the Sign up form at the navigation bar and submit.
+    3. The developer can reach potential clients through their information submitted with the 
         form.
     
 
 * As a developer, I want to provide my social media links so that users can follow my updates 
                 
-        1. When the user arrives on the webpage, the user can scroll down to the footer section.
-        2. In the footer section the user will see the social media links for the business.
+    1. When the user arrives on the webpage, the user can scroll down to the footer section.
+    2. In the footer section the user will see the social media links for the business.
 
 * As a developer, I want to be contatcted by potential user or client.
 
-        1. When the user arrives on the webpage, he/she can see the navigation bar with several 
-            links.
-        2. The user can either choose to contact us using the sign up form at the navigation bar.
-        3. The customer can fill the form and submit it.
-        4. Also, a user can just scroll down to the footer. Right there is our Phone, Email and 
-        Locations.
-
-
+    1. When the user arrives on the webpage, he/she can see the navigation bar with several links.
+    2. The user can either choose to contact us using the sign up form at the navigation bar.
+    3. The customer can fill the form and submit it.
+    4. Also, a user can just scroll down to the footer. Right there is our Phone, Email and Locations.
 
 
 * As a user, I want to go back to the hompage from the game page.
 
-
-        1. On the game page is the transparent navigational bar at the top.
-        2. There is the CCMG logo, and the Welcome link and icon.
-        3. A click on either of them will take you to homepage 
+    1. On the game page is the transparent navigational bar at the top.
+    2. There is the CCMG logo, and the Welcome link and icon.
+    3. A click on either of them will take you to homepage 
         
-
 
 * As a user, I want to sign up directky from the game page without having going back to the homepage.
 
-
-        1. On the game page is the transparent navigational bar at the top.
-        2. There is the sign up red button to right top of the nav-bar.
-        3. A click on it will open a model form over the page which you can fill and submit. 
+    1. On the game page is the transparent navigational bar at the top.
+    2. There is the sign up red button to right top of the nav-bar.
+    3. A click on it will open a model form over the page which you can fill and submit. 
         
 
 
-
-
-
-
-
-
-
-
-### **Manual Testing**
+## **Manual Testing**
 
 #####  Home Page:
 
 1. Navigation bar 
 
-              1. At the Home Page on desktop. 
-              2. Inspect links, and icons in the navigation menu to ensure they are well placed and they  
-                 are appearing correctly and centrally aligned on the navigation bar.
-              3. Notice that the navbar is fixed so no matter where you are on the site you know where you are,
-                 one can click to access any any section.
-              4. When move cursor over the logo "CCMG" it displayed the full name of site, that is, 
-                 Climate Change Memory Game.
-              5. Check the links are in uppercase.
-              6. Check the background color to be light blue and same for the footer.
-              7. Check the fonts color and ensure they are white and same for the footer.
-              8. When move the cursor over the icons to ensure they hovers and grow.
-              9. When move the cursor over the green sign up button to the right, it hovers, grow and display expected red color.
-              
-              10. To test the smooth scroll and also to verify that the links are working do the following:
+    1. At the Home Page on desktop. 
+    2. Inspect links, and icons in the navigation menu to ensure they are well placed and they  
+        are appearing correctly and centrally aligned on the navigation bar.
+    3. Notice that the navbar is fixed so no matter where you are on the site you know where you are,
+        one can click to access any any section.
+    4. When move cursor over the logo "CCMG" it displayed the full name of site, that is, 
+        Climate Change Memory Game.
+    5. Check the links are in uppercase.
+    6. Check the background color to be light blue and same for the footer.
+    7. Check the fonts color and ensure they are white and same for the footer.
+    8. When move the cursor over the icons to ensure they hovers and grow.
+    9. When move the cursor over the green sign up button to the right, it hovers, grow and display expected red color.
+    10. To test the smooth scroll and also to verify that the links are working do the following:
 
-                    (i)   Click on "WELCOME" link and verify that it stays on the HOME page
-                    (ii)  Click on "PLAY GAME" link and verify that the accordion opens and showing the "Game Instruction" and "Play" buttons
-                           * Onclick on the game instruction button, it opens model form over the page to reveal the instruction
-                           * onclick on the "Play" button, it goes to the Game page.
-                    (iii) Click on "QUOTE" link or icon and verify that it scrolls smoothly to the Quotes section.
-                
-                    (vi)  Click on "Sign Up" link and verify that the modal form opens.
+        (i)   Click on "WELCOME" link and verify that it stays on the HOME page
+        (ii)  Click on "PLAY GAME" link and verify that the accordion opens and showing the "Game Instruction" and "Play" buttons
+                * Onclick on the game instruction button, it opens model form over the page to reveal the instruction
+                * onclick on the "Play" button, it goes to the Game page.
+        (iii) Click on "QUOTE" link or icon and verify that it scrolls smoothly to the Quotes section.
 
-                    **On the mobile view and medium device view**
+        (vi)  Click on "Sign Up" link and verify that the modal form opens.
 
-                    (a) Check to ensure that the navigation bar is responsive and all the icons and links collapsed 
-                        into the toggler icon.
-                    (b) Notice that the toggler icon is properly styled and at the right corner position.
-                    (c) Notice that all the icons are hidden, and that only the names of the links that appears 
-                        and they are centrally and vertically aligned.
-                    (d) Repeat steps (i) - (v) above for the mobile views
-                    (e) Check Jumbotron text in the home page and ensure the article is hidden for 
-                        the mobile device but displays in the medium device.
-                    (f) Notice that all the various sections are vertically align for the mobile view.
-                    (g) Check the the two green buttons are vertically aligned and the contents hidden and only appears onclick and the items are centrally aligned
+        **On the mobile view and medium device view**
 
+        (a) Check to ensure that the navigation bar is responsive and all the icons and links collapsed 
+            into the toggler icon.
+        (b) Notice that the toggler icon is properly styled and at the right corner position.
+        (c) Notice that all the icons are hidden, and that only the names of the links that appears 
+            and they are centrally and vertically aligned.
+        (d) Repeat steps (i) - (v) above for the mobile views
+        (e) Check Jumbotron text in the home page and ensure the article is hidden for 
+            the mobile device but displays in the medium device.
+        (f) Notice that all the various sections are vertically align for the mobile view.
+        (g) Check the the two green buttons are vertically aligned and the contents hidden and only appears onclick and the items are centrally aligned
 
 2. **Welcome**
 
-              1. Check the link directly stays on the home page. 
-              2. Check the article heading on climate change is capitalized and bold.
-              3. Check the heading and texts are centrally aligned in the page and the background color is black
-                 
-              4. Check the text color is white.
-              5. Ensure that the text are legible and centrally align. 
-              6. Check the "Read More" button is working and the content therein is hidden and only revealed onclick.
-              7. Check the the two green buttons below the jumbotron are centrally aligned to left and right and the contents hidden and only appears onclick and the items are centrally aligned
-              8. Repeat this same steps on a mobile view, however, notice the jumbotron is hidden for mobile view and only green buttons that are centrally and vertically aligned.
-              9. Also, inspect that all the various sections are vertically align for the mobile view and they 
-                 are responsives.
-
-
+    1. Check the link directly stays on the home page. 
+    2. Check the article heading on climate change is capitalized and bold.
+    3. Check the heading and texts are centrally aligned in the page and the background color is black
+        
+    4. Check the text color is white.
+    5. Ensure that the text are legible and centrally align. 
+    6. Check the "Read More" button is working and the content therein is hidden and only revealed onclick.
+    7. Check the the two green buttons below the jumbotron are centrally aligned to left and right and the contents hidden and only appears onclick and the items are centrally aligned
+    8. Repeat this same steps on a mobile view, however, notice the jumbotron is hidden for mobile view and only green buttons that are centrally and vertically aligned.
+    9. Also, inspect that all the various sections are vertically align for the mobile view and they 
+        are responsives.
 
 4. **Quote** 
 
-              1. Scroll down to quote section or click on link in the  navigation bar on a desktop view.
-              2. Check the quote heading is not bold, but capitalized and centrally aligned in the container.
-              2. Inspect that the carousel is sliding perfectly.
-              3. Check the slider that their are three images and quotes
-              4. Check the slider indicators that are working and the previous and next button are
-                 functioning
-              5. Repeat this same steps on a mobile view
-
-
+    1. Scroll down to quote section or click on link in the  navigation bar on a desktop view.
+    2. Check the quote heading is not bold, but capitalized and centrally aligned in the container.
+    2. Inspect that the carousel is sliding perfectly.
+    3. Check the slider that their are three images and quotes
+    4. Check the slider indicators that are working and the previous and next button are
+        functioning
+    5. Repeat this same steps on a mobile view
 
 
 6. **Footer**
 
-              1. Scroll down to the footer section.
-              2. Check that the background color is same as that of the theme of the Navigational bar.
-              3. Check that all the contacts are there and the social links are working.
-              4. Check that the content in the about section are aligned properly.
-              5. Check the padding of the contents.
-              6. Ensure when you hover on the social media icons they display red.
-              7. Repeat this same steps on a mobile view.
-              8. However, notice on mobile view that the location address does not appear.
+    1. Scroll down to the footer section.
+    2. Check that the background color is same as that of the theme of the Navigational bar.
+    3. Check that all the contacts are there and the social links are working.
+    4. Check that the content in the about section are aligned properly.
+    5. Check the padding of the contents.
+    6. Ensure when you hover on the social media icons they display red.
+    7. Repeat this same steps on a mobile view.
+    8. However, notice on mobile view that the location address does not appear.
 
 
 ### Game section
 
-              1. On desktop, Notice the Navigational bar has similar feature as the hompage except the background color is transparent.
-              2. Inspect links, and icons in the navigation menu to ensure they are well placed and they  
-                 are appearing correctly and centrally aligned on the navigation bar.
-              3. Notice that the navbar is fixed so no matter where you are on the site you know where you are,
-                 one can click to access any any section.
-              4. When move cursor over the logo "CCMG" it displayed the full name of site, that is, 
-                 Climate Change Memory Game.
-              7. Check the fonts color and ensure they are white and same for the footer.
-              8. When move the cursor over the icons, ensure they hovers and grow.
-              9. When move the cursor over the to the red sign up button to the right, it hovers, and grow.
-              
-              10. To test the smooth scroll and also to verify that the links are working do the following:
+    1. On desktop, Notice the Navigational bar has similar feature as the hompage except the background color is transparent.
+    2. Inspect links, and icons in the navigation menu to ensure they are well placed and they  
+        are appearing correctly and centrally aligned on the navigation bar.
+    3. Notice that the navbar is fixed so no matter where you are on the site you know where you are,
+        one can click to access any any section.
+    4. When move cursor over the logo "CCMG" it displayed the full name of site, that is, 
+        Climate Change Memory Game.
+    7. Check the fonts color and ensure they are white and same for the footer.
+    8. When move the cursor over the icons, ensure they hovers and grow.
+    9. When move the cursor over the to the red sign up button to the right, it hovers, and grow.
+    10. To test the smooth scroll and also to verify that the links are working do the following:
 
-                    (i)   Click on "WELCOME" link and verify that it take you back to the HOME page
-                    (ii)  Click on "PLAY GAME" link and verify that the accordion opens and showing the "Game Instruction".
-                           
-                    (iii) Click on "QUOTE" link or icon and verify that it returns to the quote section in the homepage.
+        (i)   Click on "WELCOME" link and verify that it take you back to the HOME page
+        (ii)  Click on "PLAY GAME" link and verify that the accordion opens and showing the "Game Instruction".
                 
-                    (vi)  Click on the red "Sign Up" button and verify that the modal form opens.
+        (iii) Click on "QUOTE" link or icon and verify that it returns to the quote section in the homepage.
 
-                    **On the mobile view and medium device view**
+        (vi)  Click on the red "Sign Up" button and verify that the modal form opens.
 
-                    (a) Check to ensure that the navigation bar is responsive and all the icons and links collapsed 
-                        into the toggler icon.
-                    (b) Notice that the toggler icon is properly styled and at the right corner position.
-                    (c) Notice that all the icons are hidden, and that only the names of the links that appears 
-                        and they are centrally and vertically aligned.
-                    (d) Repeat steps (i) - (v) above for the mobile views
-                    
+        **On the mobile view and medium device view**
 
-              
+        (a) Check to ensure that the navigation bar is responsive and all the icons and links collapsed 
+            into the toggler icon.
+        (b) Notice that the toggler icon is properly styled and at the right corner position.
+        (c) Notice that all the icons are hidden, and that only the names of the links that appears 
+            and they are centrally and vertically aligned.
+        (d) Repeat steps (i) - (v) above for the mobile views
+                                 
 
 2. **The Body and Game**
-   
-              1. On mobile view notice the game collapse into two columns, the cards appear in two columns. 
-              2. Check the game title to text are vertically stacked over one another and they centrally aligned and the font is white in color.
-              3. 
-              9. Also, inspect that all the various sections are vertically align for the mobile view and they 
-                 are responsives.
 
-
+    1. On mobile view notice the game collapse into two columns, the cards appear in two columns. 
+    2. Check the game title to text are vertically stacked over one another and they centrally aligned and the font is white in color.
+    3. Also, inspect that all the various sections are vertically align for the mobile view and they are responsives.
 
 6. **Footer**
 
-              1. Scroll down to the footer section.
-              2. Check that the background color is same as that of the theme of the Navigational bar.
-              3. Check that all the contacts are there and the social links are working.
-              6. Ensure when you hover on the social media icons they display red.
-              7. Repeat this same steps on a mobile view.
-              8. However, notice on mobile view that the location address does not appear and the content stacked vertically over one another.
-
-
-
-
-
-
-
-
-
-
-
-
-
+    1. Scroll down to the footer section.
+    2. Check that the background color is same as that of the theme of the Navigational bar.
+    3. Check that all the contacts are there and the social links are working.
+    6. Ensure when you hover on the social media icons they display red.
+    7. Repeat this same steps on a mobile view.
+    8. However, notice on mobile view that the location address does not appear and the content stacked vertically over one another.
 
 
 
@@ -641,9 +492,7 @@ The results for mobile is 90%, although it is not terrible such a score but woul
  * It has a slightly dark transparent overlay. Game starts on click and the timer starts counting down while the flip notes the number of flips the user makes. 
  * Since the aim of the game is to test user memory against the timer, the start click also starts the clock this is to maximize time. Below image is the start-up screen.
 
-
 <img src="assets/testing/startG.png">
-
 
 ### *Active Game Mode and back of cards*
 
@@ -653,10 +502,8 @@ The results for mobile is 90%, although it is not terrible such a score but woul
 * In the following order: Top-Left-Right, Bottom-Right-Left and center, the images are Carbondioxide molecule (Co2), Nitrous oxide molecule N2O, methane molecule (CH4), chloroflourocarbon molecule (CFC) and image of the earth.
 * Those images except that of the earth are gases that causes green-house-gas (GHG), which are the major anthropogenic factors that cause climate change
 * All the images rotate clockwisely.
-
-image here 
+ 
 <img src="assets/testing/activeG.png">
-
 
 
 ### *Front of cards*
@@ -667,11 +514,8 @@ image here
 
 <img src="assets/testing/flipcard.png">
 
-
-
 * When a user clicks, the flip sound could be heard.
 * When a pair of cards matches on clicks, the cards will sway left to right in dancing animation and a clapping sounds and the matched cards remained face front.
-
 
 <img src="assets/testing/matchcard.png">
 
@@ -680,7 +524,6 @@ image here
 
 <img src="assets/testing/unmatch.png">
 
-
 ## *Game Over and victory mood*
 
 * There are different displays when the game ends, loser and winner.
@@ -688,26 +531,12 @@ image here
 
 <img src="assets/testing/victoryCad.png">
 
-
-
-
 * The lost game screen displays game over with a melancholy sound, and an overlayed click to restart.
-
 
 <img src="assets/testing/gameOva.png">
 
 
-
-
-
-
-
-
-
-
-
-
-## Bugs and resolve
+## Bugs and resolves
 
 1. **Naviagational bar**
     * In the game section, the Naviagational bar overlaps the Timer and the flipper due to the height of the game container both on desktop and in mobile view.
@@ -721,14 +550,18 @@ image here
 
 * Intially, the following problems were identified
   <img src="assets/testing/mobileunfit.png">
+
  * The 2 layout columns was not just good for the mobile view, it was not user-friendly, that was way code was initially built.
  length of card was just too long for media of 600px and below.
+
  ### Resolve
+
 * The problem was resolve by applying media query of max-width 600px, and changing the layout into 4 columns.
 * The method worked for all the small mobile devices except Iphone 5 series. Again, I had to apply another media query of max-width 350px. That resolve problems of Responsiveness and compactibility.
 see here for the images [media@600](assets/testing/responsivecode2.png), and [media@600](assets/testing/responsivecode.png)
 
 2. **Floating footer**
+
    * There was the footer problem that would not stick to the bottom. After doing lot of research by googling, and watching lot of youtube videos, finally there was solution after an interactive section with an online tutor.
     <img src="assets/testing/footerfloat.png">
 
@@ -739,6 +572,7 @@ see here for the images [media@600](assets/testing/responsivecode2.png), and [me
 
 
 3. **Toggle Issue**
+
     * There was an issue of a button that has to be toggle twice before it reponded. The button was the Read More button in the centre of the jumbotron in the homepage. 
     * the major problem was because  <button class="btn btn-lg btn--cta btn--red hvr-grow-shadow read-moreButton expandToggle" onclick="readMore()">Read More..</button> the expandToggle class was used and also, in the Javascript the style was displayed none instead of block as can be seen in code below.
     {(var showContent = document.getElementById("showMoreContent1"); if (showContent.style.display === "none") )}
@@ -749,27 +583,22 @@ see here for the images [media@600](assets/testing/responsivecode2.png), and [me
 * The class expandToggle was removed and the style-display was changed from none to block.
 
 
-### Unresolve issues
-One unresolved issue was in the game section, when the 
-card flips, the its background is white. the card is not supposed to have a whit background when it flips, although when card flips completely , the white background does not show. I did lot of researches but could fix it yet. It is one problem that the developer would fix if there was enough time.
+4. **Card White Background**
+One bug that was lastly resolved was on the game's card background. When the cards flip, its background is white. the card is not supposed to have a white background when it flips, although when card flips completely , the white background does not show. I did lot of researches on it and almost gave up on it until the solution finaly. 
+
+<img src="assets/testing/whitebkg.png">
+
+### Resolve 
+* The simple solution is to set the cards' class background to transparent. [.card{ background-color: transparent; border-color: transparent;} ]
+
+<img src="assets/testing/resolvedwhibkg.png">
 
 
+# **DEPLOYMENT**
 
+## Deploying
 
-
-
-
-
-
-
-
-
-# **Deployment**
-
-
-
-Deployment
-The website was developed using both GitPod and using Git pushed to GitHub, it host the repository. The following steps were made to deploy the site live using GitHub Pages:
+The website was developed using both GitPod and using Git push to store them in GitHub, GitHub host the repository. The following steps weren used to deploy the site live using GitHub Pages:
 
 * GitHub was  in the browser.
 * Signed in with my username and password.
@@ -782,6 +611,7 @@ The website was developed using both GitPod and using Git pushed to GitHub, it h
 * " ms2-project" became live on GitHub Pages.
 
 
+## Clone
 
 **How to clone / run this project locally, for other users**
 
@@ -808,19 +638,17 @@ The website was developed using both GitPod and using Git pushed to GitHub, it h
 9.	Press Enter. Your local clone will be created.
 
 
+# CREDITS
 
-
-## Credits
-
-### contents
-
-**References:**
-
-Sources of Articles: All the articles used in the site were obtained from the sites below;
+## contents
 
 Logo: The site logo was created free from the below website;
 
     *https://www.freelogodesign.org/preview?lang=en&autodownload=true&logo=9ac215ca-c2a7-4428-a30d-7e6b875b17b6
+
+**References:**
+
+Sources of Articles: All the articles used in the site were obtained from the sites below;
 
     * https://www.nationalgeographic.com/environment/global-warming/global-warming-effects/
 
@@ -846,24 +674,17 @@ Logo: The site logo was created free from the below website;
  https://www.youtube.com/watch?v=28VfzEiJgy4 and https://www.youtube.com/watch?v=3uuQ3g92oPQ&feature=youtu.be
 
 
-
-## **Media**
+## Media
 
 All of the images in the site were supplied drom the sources below.
 
-Below are the references of those images:
-
 * Game background Image:
-
     *   https://www.pikrepo.com/fdabr/black-and-white-unk-text
 
 * Quote image: 
-
   
     * https://www.pikrepo.com/fnuon/gray-curved-road-beside-arrow-left-signage-under-white-cloud-blue-skies#google_vignette
-
     * https://www.pikrepo.com/fomjf/brown-wooden-fence-near-trees-covered-in-snow
-
     * https://www.pikrepo.com/frdlf/red-leaf-tree-digital-wallpaper
 
 
@@ -885,19 +706,15 @@ Below are the references of those images:
  https://www.youtube.com/watch?v=28VfzEiJgy4 and https://www.youtube.com/watch?v=3uuQ3g92oPQ&feature=youtu.be
 
 
+**Miscellaneous**
 
-**Generally:**
-The spinning effect of the back of my cards in the game section, code was lifted here; 
-
- * https://codepen.io/teerapuch/pen/vLJXeR 
- * the lecture videos and notes
+The spinning effect of the back of my cards in the game section, code was lifted here: https://codepen.io/teerapuch/pen/vLJXeR 
+ 
+ * The lecture videos and notes
  * [Stack overflow](https://stackoverflow.com/) To seek solutions to fix bugs.
  * [W3Schools](https://www.w3schools.com/) I used this site for references in many instances.
 
-
-
-
-# **Acknowledgements**
+## Acknowledgements
 I received inspiration for this project from:
 
     * God for Mercies.
