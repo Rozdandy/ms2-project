@@ -1,12 +1,16 @@
+
+/*font imported from google for the game */
 @import url('https://fonts.googleapis.com/css2?family=Langar&family=Supermercado+One&display=swap');
 
 
+ /*style for boxing the cards and to enable image spreadout through the page */
 html {
     min-height: 100vh;
     box-sizing: border-box;
 }
 
-
+/*game background image*/
+/*and to enable image spreadout through the page evenly*/
 body {
      min-height: 100vh;
   
@@ -14,128 +18,12 @@ body {
 }
 
 
-.navbar-dark {
-    padding: 0px;
-    border: 0;
-    /* background-color:rgba(90, 150, 210, 0.95)!important; */
-}
 
-.navbar-dark .navbar-brand  {                                    
-        float:left;
-        font-family: "Supermercado", sans-serif;
-        font-size: 200%;
-        margin-left: 0px;
-        margin-bottom: 0;
-        padding-bottom: 2px;
-        padding-left: 50px;
-        border-bottom: 0;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: white;
-        text-decoration: none;
-        line-height: 75px;
-        height: 75px;
+/*---------------------------------- Game info and Title ----------*/
 
-}
-
-
-
-.collapse .naveLinks {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content: space-between;
-    
-}
-
-.nav-item {
-
-    text-align: center;
-    list-style: none;
-    padding: 0;
-    margin: 0px;
-}
-
-.nav-item a {
-    width: 100%;
-    text-decoration: none;
-    margin: 0 10px;
-    color: #ffffff;
-}
-
-.nav-item a i {
-    padding-top: 5px;
-    display: inline;
-    color:#ffffff;
-    font-size: 30px;
-}
-
-.nav-item a span {
-    width: 100%;                               
-    padding-top: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: 2px;
-    text-align: center;
-    padding-bottom: 15px;
-  
-}
-
-.navbar-toggler-icon{
-    border: 0;
-}
-
-
-.btn--red {
-    width: 150px;
-    margin: 5px 10px;
-    padding: 2px;
-    background-color: red;
-    color: white;
-    text-transform: uppercase;
-    font-family: "Supermercado", sans-serif;
-    border: 2px solid red;
-    border-radius: 12px;
-   
-}
-
-#modalFormdiv  {
-    text-align: center;
-}
-
-
-.modalForm {
-    font-weight: bold;
-    
-}
-
-
-.ccTerms {
-    max-height: 280px;
-    width: auto;
-    background-color: goldenrod;
-    color: white;
-    /* overflow: hidden; */
-    overflow-y: scroll;
-    padding: 10px;
-    transition: height 0.5s ease-in-out;
-    text-align: center;
-    line-height: 20px;
-    font-size: 15px;
-    margin-left: 50px;
-}
-
-
-
-
-
-
-
-
-
-
+/*styling page title*/
 .page-title {
-    margin-top: 70px;
+    margin-top: 20px;
   font-family: Langar, serif;
   font-weight: normal;
   text-align: center;
@@ -144,7 +32,7 @@ body {
 }
 
 
-
+/* 1 / -1 taking whole columns in that row*/
 .game-info-container {
   grid-column: 1 / -1;
   display: flex;
@@ -154,30 +42,14 @@ body {
 }
 
 
-.page-title {
-    margin-top: 70px;
-  font-family: Langar, serif;
-  font-weight: normal;
-  text-align: center;
-  font-size: 4em;
-  color: #fafafa;
-}
-
-
-.game-info-container {
-  grid-column: 1 / -1;
-  display: flex;
-  justify-content: space-between;
-
-  
-}
-
-
+/* styling info-container */
 .game-info {
   font-family: Supermercado, serif;
   color: #FFBB89;
   font-size: 3em;
 }
+
+/*the div-wrapper that conatains all the cards, timer, flipper, the styling center the cards with correct spacing*/
 
 div.game-container {
   display: grid;
@@ -185,20 +57,23 @@ div.game-container {
   grid-gap: 10px;
   margin: 50px;
   justify-content: center;
- perspective: 500px;
+ perspective: 500px;  /* giving the card 3d effect when it flips*/
 }
 
 
-
+/* styling the cards generally*/
 .card{
     position: relative; 
     height: 160px;
     width: 115px;
     border-radius: 12px;
-    background-color: transparent;
+    background-color: transparent; /* makes the background neutral, i.e removed default color*/
     border-color: transparent;
     
 }
+
+
+/*card face styling, setup and positioning */
 
 .card-face {
   position: absolute;
@@ -208,25 +83,29 @@ div.game-container {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  backface-visibility: hidden;
+  backface-visibility: hidden; /* prevent cards default transparent image*/
   border-radius: 12px;
   border-width: 5px;
   border-style: solid;
-  transition: transform 500ms ease-in-out;
+  transition: transform 500ms ease-in-out; /* determine the speed at which card flip over completely*/
   
  
 }
 
 
+/*rotating effect of the cards at 180degrees*/
+
 .card.visible .card-back {
   transform: rotateY(-180deg);
 }
 
+/* for horizontal plane rotation*/
 .card.visible .card-front {
   transform: rotateY(0)
 }
 
 
+/*this style the images at the corner of the cards back and front*/
 .ghg{
   position: absolute;
   width: 37px;
@@ -235,54 +114,17 @@ div.game-container {
   
 }
 
+
+/*-------------------------------------------card-back  styling -----------------------------*/
+
+
 .card-back {
     background-color: rgba(195, 212, 37, 0.99); 
     border-color: rgb(235, 53, 21);
 }
 
 
-
-
-.ghg-topRight-N2O{
-  transform: rotate(-260deg);
-  top: 0;
-  right: 0;
-}
-
-.ghg-bottomLeft-cfc{
-  
-  bottom: 0;
-  left: 0;
-}
-
-.ghg-bottomRight-methane{
-  
-  bottom: 0;
-  right: 0;
-}
-
-.card-front {
-  background-color: #fafafa;
-  border-color: #333;
-  transform: rotateY(180deg);
-}
-
-.matchedz {
-    transform: scale(0.9);
-}
-
-.card-front:hover .matchedz {
-    transform: scale(1);
-    transition: transform 100ms ease-in-out;
-}
-
-
-
-.card-face:hover .ghg {
-   height: 52px;
-    width: 52px;
-}
-
+/*top-left-image*/
 
 .ghg-topLeft-carbondioxide {
   transform: rotate(270deg);
@@ -291,14 +133,66 @@ div.game-container {
 } 
 
 
- .card-front .eden {
+/*top-right-image*/
+
+.ghg-topRight-N2O{
+  transform: rotate(-260deg);
+  top: 0;
+  right: 0;
+}
+
+
+/*bottom-right-image*/
+.ghg-bottomRight-methane{
+  
+  bottom: 0;
+  right: 0;
+}
+
+/*bottom-left-image*/
+.ghg-bottomLeft-cfc{
+  
+  bottom: 0;
+  left: 0;
+}
+
+/*-------------------------------------------card-front  styling -----------------------------*/
+
+.card-front {
+  background-color: #fafafa;
+  border-color: #333;
+  transform: rotateY(180deg);
+}
+
+
+/* win-card transforming attribute using the speed the card transforms on the won card */
+.matchedz {
+    transform: scale(0.9);
+}
+
+/* card-front:hover and bringing the scaling effect */
+
+.card-front:hover .matchedz {
+    transform: scale(1);
+    transition: transform 100ms ease-in-out;
+}
+
+/* enlarge the image when zoom into */
+
+.card-face:hover .ghg {
+   height: 52px;
+    width: 52px;
+}
+
+
+ .card-front .impact {
   transform: rotate(0deg);
   top: 0;
   left: 0;
 } 
 
 
-.card-front .edenz{
+.card-front .impactz{
 
 transform: rotate(360deg);
   top: 0;
@@ -306,7 +200,7 @@ transform: rotate(360deg);
 }
 
 
-
+/*middle images back and front styling*/
 .earth,
 .matchedz {
 position: absolute;
@@ -315,11 +209,13 @@ position: absolute;
   
 }
 
-/* to allow the 500ms to flip over before it start dancing for 1s */
+/* to allow 500ms to flip over before it start dancing for 1s */
 .card.matched .matchedz{
 
 animation: dance 1s linear infinite 500ms;
 }
+
+/* dancing effect of matched card styling*/
 
 @keyframes dance {
     0%, 100%  {
@@ -333,16 +229,14 @@ animation: dance 1s linear infinite 500ms;
   }
 }
 
+/*spinning effect of back of cards from https://codepen.io/teerapuch/pen/vLJXeR site*/
 
 .spin {
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
   animation-timing-function: linear; 
-  /* transform: rotate(3deg); */
-   /* transform: rotate(0.3rad);/ */
-   /* transform: rotate(3grad); */ 
-   /* transform: rotate(.03turn);  */
+  
 }
 
 
@@ -355,6 +249,10 @@ animation: dance 1s linear infinite 500ms;
     }
 }
 
+
+
+/*styling the overlay-text to click to start, game over and victory view*/
+
 .overlay-text {
   display: none;
   position: fixed;
@@ -366,15 +264,18 @@ animation: dance 1s linear infinite 500ms;
   align-items: center;
   z-index: 100;
   color: #FF6D00;
-  font-family: Supermercado, serif;
+  font-family: Langar, serif;
 }
 
+/*Overlay-text-visible and the speed 500ms at which it displays*/
 .overlay-text.visible {
   display: flex;
   flex-direction: column;
   animation: overlay-grow 500ms forwards;
 }
 
+
+/*styling the overlay growing effect*/
 
 @keyframes overlay-grow {
   from {
@@ -387,12 +288,16 @@ animation: dance 1s linear infinite 500ms;
   }
 }
 
+/*styling overlay-text-small and positioning*/
+
 .overlay-text-small {
   font-size: 0.2em;
+  text-align: center;
 }
 
 
 
+/*---------------------------------- Media Queries----------*/
 
 @media (max-width: 600px) {
 
@@ -453,131 +358,18 @@ position: absolute;
   
 }
 
+/*---------------------------------- overlay sidelink-logo--------*/
 
-
-/* (for say less than 450px), and make the cards smaller (say 75px or 80px wide).  */
-
-
-
-
-#footer {
-  /* background-color:rgba(90, 150, 210, 0.95); */
-    color: #777777;
-   
-    position: absolute;
-     width: 100%;
-}
-
-/*--------------------footer-socialMedia---*/
-
-.social-media {
-    padding-bottom: 15px;
-    text-align:center;
-}
-
-div ul.social-media li a {
-    text-align: center;
-}
-                                
-div ul.social-media li a i {
-    width: 2.0em;
-    height: 2.0em;
-    margin: 3%;
-    padding: 5%;
-    border-radius: 25%;
-    font-size: 1.8em;
-    line-height: 1.8em;
-    text-align: center;
-    color: #fafafa;
-    background: rgba(0,73,83,0.9);
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-media li a i:hover {
-    background: rgba(255,36,0, 0.8);
-}
-
-
-#footer-contents {
-    padding: 10px;
-}
-
-
-      /*--------------------footer-contacts---*/
-
-footer .contacts {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-}
-
-.footer-header {
-    color: #ffffff;
-    text-align: center;
-    
-}
-
-footer .contactslg {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;    
-}
-
-
-
-
-
-
-
-
-/* Background Styles Only */
-
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
-.side-links {
+.side-link-logo {
   position: absolute;
   top: 15px;
   left: 15px;
   margin-left: 50px;
 }
 
-/* .side-link {
-  font-family: Raleway;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: white;
-  width: 100px;
-  padding: 10px 0;
-  border-radius: 10px;
-} */
 
-.side-links .navbar-brand  {                                    
-        /* float:left;
-        font-family: "Supermercado", sans-serif;
-        width: 200%;
-        margin-left: 0px;
-        margin-bottom: 10px;
-        padding-bottom: 2px;
-        padding-left: 50px;
-        border-bottom: 0;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: white;
-        text-decoration: none;
-        line-height: 75px;
-        height: 75px; */
-
-
-
-       
+.side-link-logo .navbar-brand  {                                    
+            
   display: flex;
   align-items: center;
   justify-content: center;
@@ -592,10 +384,7 @@ footer .contactslg {
 
 }
 
-
-
-
-
+/*---------------------------------- Media Queries--esp for Iphone 5SE--------*/
 
 @media (max-width: 350px) {
 
@@ -657,7 +446,7 @@ position: absolute;
   font-size: 0.2em;
 }
 
-.side-links {
+.side-link-logo {
   position: absolute;
   top: 5px;
   left: 15px;
@@ -665,37 +454,8 @@ position: absolute;
   margin-bottom: 20px;
 }
 
-/* .side-link {
-  font-family: Raleway;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: white;
-  width: 100px;
-  padding: 10px 0;
-  border-radius: 10px;
-} */
-
-.side-links .navbar-brand  {                                    
-        /* float:left;
-        font-family: "Supermercado", sans-serif;
-        width: 200%;
-        margin-left: 0px;
-        margin-bottom: 10px;
-        padding-bottom: 2px;
-        padding-left: 50px;
-        border-bottom: 0;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: white;
-        text-decoration: none;
-        line-height: 75px;
-        height: 75px; */
-
-
-
+.side-link-logo .navbar-brand  {                                    
+        
        
   display: flex;
   align-items: center;
