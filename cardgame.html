@@ -17,7 +17,7 @@
         <title>Climate Change Memory Game</title>
     </head>
     <body>
-         <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+         <!-- <nav class="navbar navbar-dark navbar-expand-sm fixed-top d-none d-md-block">
             <a href="index.html" class="hvr-grow-shadow" title="Climate Change Memory Game"><img class="navbar-brand" src="assets/images/logo.png" alt="CCMG" /></a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,12 +38,12 @@
             </div>
             <div class="d-none d-md-block">
                 <!-- <p class="navbar-text my-auto mr-2"><i>More Subliminal Games!</i></p> -->
-                <a href="/login" class="btn btn--cta btn-lg btn--red btn-danger hvr-grow-shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</a>
+                <!-- <a href="/login" class="btn btn--cta btn-lg btn--red btn-danger hvr-grow-shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</a>
             </div>
-        </nav>
+        </nav> -->
 
         <!-- SIGN-UP Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -79,20 +79,83 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --> 
 
+<div class="d-none d-md-block">
         <h2 class="page-title">Climate Change Memory Game</h2>
+        </div>
         <div class="overlay-text visible">
             Click to Start
+
+
+
+<div class="side-links">
+         <a href="index.html" class="side-link hvr-grow-shadow" title="Climate Change Memory Game">
+          
+          <img class="navbar-brand" src="assets/images/logo.png" alt="CCMG" />
+        </a> 
+
+
+
+       
+      </div>
+
+
+
+
+
+
+
+
+
+
+            
         </div>
 
         <div id="game-over-text" class="overlay-text">
             GAME OVER
             <span class="overlay-text-small">Click to Restart</span>
+
+<div class="side-links">
+         <a href="index.html" class="side-link hvr-grow-shadow" title="Climate Change Memory Game">
+          
+          <img class="navbar-brand" src="assets/images/logo.png" alt="CCMG" />
+        </a> 
+
+
+
+       
+      </div>
+
+
+
+
+
+
+
+
         </div>
         <div id="victory-text" class="overlay-text">
             VICTORY
             <span class="overlay-text-small">Click to Restart</span>
+
+
+<div class="side-links">
+         <a href="index.html" class="side-link hvr-grow-shadow" title="Climate Change Memory Game">
+          
+          <img class="navbar-brand" src="assets/images/logo.png" alt="CCMG" />
+        </a> 
+
+
+
+       
+      </div>
+
+
+
+
+
+
         </div>
 
         <!-- <div class="game-container content"> -->
@@ -377,7 +440,7 @@
             </div>
         </div>
 
-        <footer class="container-fluid footerContainer" id="footer">
+        <!-- <footer class="container-fluid footerContainer d-none d-md-block" id="footer">
             <div class="row no gutters" id="footer-contents">
                 <div class="col-12 d-sm-none d-md-block d-lg-none contacts">
                     <p>
@@ -424,9 +487,9 @@
                     <br />
                 </div>
             </div>
-        </footer>
+        </footer> -->
 
-        <!--Navbar  Modal For PlayGame link -->
+        Navbar  Modal For PlayGame link
         <div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop1" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -437,25 +500,26 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <div class="dropdown-item hvr-glow" data-toggle="collapse" role="link" data-target="#staticBackdrop1" aria-expanded="false" aria-controls="staticBackdrop1">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br />
-                            Ullam aliquam ut obcaecati, laboriosam commodi consectetur<br />
-                            consequuntur cupiditate. Modi dolores, iste,minima nostrum <br />
-                            omnis illo sunt veritatis vel accusamus quisquam veniam?
+                        <div class="dropdown-item hvr-glow" data-toggle="collapse" role="link" data-target="#collapseInstructionDiv" aria-expanded="false" aria-controls="staticBackdrop1">
+                            Instruction
                         </div>
-                        <!-- <div class="collapse" id="collapseInstruction">
+                        <div class="collapse" id="collapseInstructionDiv">
                         <div class="card card-body">
-                            <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam aliquam ut obcaecati, laboriosam commodi consectetur consequuntur cupiditate. Modi dolores, iste, minima nostrum omnis illo sunt veritatis vel accusamus quisquam veniam?
-                            </p>
-                        </div> -->
+                            
+                                It is a card matching game, you flip a card, it stays face-up, you then flip a second card that matches it, with the same pattern on it. The goal is to get all of the cards matched. Additionally, there is a timer with default time that start simultaneously as the game begins, it counts down and when its get to zero you lose. Also, there is flip counter that records the number of flips made. Your objective is to get the lowest number of flips with the highest number of time in each game played.
+                                Card imagery
+                                At the back of the cards, the corner images are anthropogenic factors causing climate change, while the center is the earth.
+                                At the front card, the corner images are likely impact of climate change, while the center are the likely Adaptation and mitigation imageries. 
+
+                            </div>
+                        </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 

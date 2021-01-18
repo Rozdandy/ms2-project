@@ -613,6 +613,7 @@ The website was developed using both GitPod and using Git push to store them in 
 
 ## Clone
 
+
 **How to clone / run this project locally, for other users**
 
 1.	On GitHub, go to my Github page.

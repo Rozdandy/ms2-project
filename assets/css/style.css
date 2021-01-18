@@ -188,6 +188,46 @@ hr {
     font-size: 15px;
     margin-left: 50px;
 }
+
+.card-body{
+     /* max-height: 280px; */
+    width: auto;
+    background-color: goldenrod;
+    color: white;
+    /* overflow: hidden; */
+    /* overflow-y: scroll; */
+    padding: 10px;
+    transition: height 0.5s ease-in-out;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    /* margin-left: 50px; */
+
+}
+
+.dropdown-item{
+    background-color: rgba(0, 73, 83, 0.9);
+    margin-bottom: 5px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+    font-weight: bold;
+}
+
+ h5.modal-title {
+    
+     color: rgb(65, 23, 23);
+     font-size: 20px;
+   font-weight: 600;
+   padding: 5px;
+ }
+
+ .modalGame-Instruction{
+     border-radius: 10px;
+ }
+
+
 .ccTerms-Links {
     list-style-type: none;
     padding-left: 5px;
