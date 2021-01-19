@@ -7,7 +7,7 @@
 
 *my github link*: [Rozdandy](https://github.com/Rozdandy?tab=repositories)
 
-*Site*:[<img src="assets/image/logo.png">](https://rozdandy.github.io/ms2-project/.)
+*Site*:[CCMG](https://rozdandy.github.io/ms2-project/.)
 
 Climate Change Memory Game is practically an educative site, it is for those that care about the health of the planet earth. The goal is to provide an intuitive and interactive site which is user friendly to everyone in all ages and profession. The homepage provides educating information on climate change which includes some notable quotes of leaders across the world. While the game section is a card memory game whereby users are to match pairs. The cards are embossed with intriguing climate change-related imagery and terms such as GHG greenhouse gas molecules, climate change impact, and mitigations pictures. Users will use their memory and skill to match the pairs before the time finishes.
 
@@ -474,7 +474,7 @@ The results for mobile is 90%, although it is not terrible for such a score but 
 
 * If the pair of cards did not match both cards will display momentarily and then flip back to be hidden.
 
-<img src="assets/testing/gameunmatch.png">
+<img src="assets/testing/gameunmatched.png">
 
 ## *Game Over and victory mood*
 
@@ -587,29 +587,29 @@ The website was developed using both GitPod and using Git push to store them in 
 
 Logo: The site logo was created free from the below website;
 
-    *https://www.freelogodesign.org/preview?lang=en&autodownload=true&logo=9ac215ca-c2a7-4428-a30d-7e6b875b17b6
+*https://www.freelogodesign.org/preview?lang=en&autodownload=true&logo=9ac215ca-c2a7-4428-a30d-7e6b875b17b6
 
 **References:**
 
 Sources of Articles: All the articles used in the site were obtained from the sites below;
 
-    * https://www.nationalgeographic.com/environment/global-warming/global-warming-effects/
+* https://www.nationalgeographic.com/environment/global-warming/global-warming-effects/
 
-    * https://www.wwf.org.uk/learn/effects-of/climate-change
+* https://www.wwf.org.uk/learn/effects-of/climate-change
 
-    * https://www.nrdc.org/stories/global-climate-change-what-you-need-know
+* https://www.nrdc.org/stories/global-climate-change-what-you-need-know
 
-    * https://givingcompass.org/partners/climate-action/10-important-climate-change-terms?gclid=Cj0KCQiA2af-BRDzARIsAIVQUOeQn_w_5-RDQ_o-zV_g1sR9gVtQh-jz3-dqQnDcBYYZxjAQYZS0x1MaAjHNEALw_wcB
+* https://givingcompass.org/partners/climate-action/10-important-climate-change-terms?gclid=Cj0KCQiA2af-BRDzARIsAIVQUOeQn_w_5-RDQ_o-zV_g1sR9gVtQh-jz3-dqQnDcBYYZxjAQYZS0x1MaAjHNEALw_wcB
 
-    * https://climatechange.chicago.gov/climatechange/glossary-climate-change-terms
+* https://climatechange.chicago.gov/climatechange/glossary-climate-change-terms
 
-    * https://climaterealityproject.org/blog/key-terms-you-need-understand-climate-change
+* https://climaterealityproject.org/blog/key-terms-you-need-understand-climate-change
 
-    * https://www.worldwildlife.org/threats/effects-of-climate-change
+* https://www.worldwildlife.org/threats/effects-of-climate-change
 
-    *https://projectworldimpact.com/cause/Climate-Change-Effects?gclid=CjwKCAiA_9r_BRBZEiwAHZ_v18albsv2c_8ZvGiiOf2M9ueVIB4BvAd2BrEgYyvRs85aNujt_GKuIBoCvCgQAvD_BwE
+*https://projectworldimpact.com/cause/Climate-Change-Effects?gclid=CjwKCAiA_9r_BRBZEiwAHZ_v18albsv2c_8ZvGiiOf2M9ueVIB4BvAd2BrEgYyvRs85aNujt_GKuIBoCvCgQAvD_BwE
 
-    * https://warmheartworldwide.org/climate-change/?gclid=CjwKCAiA_9r_BRBZEiwAHZ_v16h8vtVOSHyhn3B0dFt-dzY7uhqCg3t6FiYCD5cajyGJoSefeUFHhRoCuosQAvD_BwE
+* https://warmheartworldwide.org/climate-change/?gclid=CjwKCAiA_9r_BRBZEiwAHZ_v16h8vtVOSHyhn3B0dFt-dzY7uhqCg3t6FiYCD5cajyGJoSefeUFHhRoCuosQAvD_BwE
 
 * Sources of Quotes: https://www.climate-change-guide.com/quotes-on-climate-change.html
 
@@ -660,7 +660,7 @@ The spinning effect of the back of my cards in the game section, code was lifted
 ## Acknowledgements
 I received inspiration for this project from:
 
-    * God for Mercies.
-    * Special thanks to [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ) and [PortEXE](https://www.youtube.com/watch?v=28VfzEiJgy4) for the tutorial.
-    * My mentor for advice and feedback.
-    * Student care and student tutors for being there when I needed them most.
+* God for Mercies.
+* Special thanks to [PortEXE](https://www.youtube.com/watch?v=3uuQ3g92oPQ) and [PortEXE](https://www.youtube.com/watch?v=28VfzEiJgy4) for the tutorial.
+* My mentor for advice and feedback.
+* Student care and student tutors for being there when I needed them most.
