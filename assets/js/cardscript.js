@@ -135,10 +135,6 @@ gameOver() {
         this.cardToCheck = null;
     }
 
-      
- 
-
-
     
 // for a card that match
     cardMatch(card1, card2) {
@@ -150,7 +146,6 @@ gameOver() {
         if(this.matchedCards.length === this.cardsArray.length)
             this.victory();
     }
-
 
 cardMismatch(card1, card2) {
         this.busy = true;
@@ -170,8 +165,6 @@ cardMismatch(card1, card2) {
         }
     }
 
-  
-
 
      getCardType(card) {
         return card.getElementsByClassName('matchedz')[0].src;
@@ -182,10 +175,6 @@ cardMismatch(card1, card2) {
         return !this.busy && !this.matchedCards.includes(card) && card !== this.cardToCheck;
     }
 }
-
-
-    
-    
 
 
 function ready() {

@@ -2,6 +2,7 @@
 /*font imported from google for the game */
 @import url('https://fonts.googleapis.com/css2?family=Langar&family=Supermercado+One&display=swap');
 
+/* Referencing the video that inspires me https://www.youtube.com/watch?v=28VfzEiJgy4&t=1s */
 
  /*style for boxing the cards and to enable image spreadout through the page */
 html {
@@ -314,6 +315,7 @@ div.game-container {
     height: 120px;
     width: 86.25px;
     border-radius: 10px;
+    padding: 2px;
 
     
 }
@@ -386,7 +388,7 @@ position: absolute;
 
 /*---------------------------------- Media Queries--esp for Iphone 5SE--------*/
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
 
 div.game-container {
   
@@ -398,9 +400,10 @@ div.game-container {
 
   .card{
     position: relative; 
-    height: 110px;
-    width: 79px;
+    height: 100px;
+    width: 73.5px;
     border-radius: 8px;
+    padding: 2px;
     
 }
 

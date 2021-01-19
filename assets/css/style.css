@@ -248,6 +248,9 @@ ul > li > h5,
    font-weight: 600;
    padding: 5px;
  }
+ .form-group {
+     margin: 10px;
+ }
 
 /* styling climate change-jargons-CONTENTS */
  .ccTerms {
@@ -309,6 +312,7 @@ ul > .ccTerms-typo {
     overflow: hidden;
     justify-content: center;
 }
+
 /* credit to this video https://www.youtube.com/watch?v=Thw33qJ5DXo&t=3330s */
 .carousel-caption {
     background: rgba(0, 0, 0, 0.6);
