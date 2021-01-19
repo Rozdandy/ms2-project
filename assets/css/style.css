@@ -10,6 +10,7 @@ html {
     font-family: "Supermercado", sans-serif;
 }
 
+/*----------------Background Image for Welcome Section --*/
 .welcome-page {
     height: 100vh;
 
@@ -26,13 +27,14 @@ html {
     position: relative;
 }
 
+                        /*----------------------------------Nav-bar---------*/
 .navbar-dark {
     padding: 0px;
     border: 0;
     background-color: rgba(90, 150, 210, 0.95) !important;
 }
 
-.navbar-dark .navbar-brand {
+.navbar-dark .navbar-brand { /*---Site Logo----*/
     float: left;
     font-family: "Supermercado", sans-serif;
     font-size: 200%;
@@ -49,14 +51,13 @@ html {
     height: 75px;
 }
 
-
-
+/*---wrapper for links----*/
 .collapse .naveLinks {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+/*---contents od nan-links: welcome, play game and signUp for small device----*/
 .nav-item {
     text-align: center;
     list-style: none;
@@ -64,7 +65,7 @@ html {
     margin: 0px;
     
 }
-
+/*---nav-anchors----*/
 .nav-item a {
     width: 100%;
     text-decoration: none;
@@ -72,6 +73,7 @@ html {
     color: #ffffff;
 }
 
+/*---nav-icons----*/
 .nav-item a i {
     padding-top: 5px;
     display: inline;
@@ -79,6 +81,7 @@ html {
     font-size: 30px;
 }
 
+/*---nav-anchor-Text----*/
 .nav-item a span {
     width: 100%;
     padding-top: 5px;
@@ -89,6 +92,7 @@ html {
     padding-bottom: 15px;
 }
 
+/*---nav-bar-collaps-Button----*/
 .navbar-toggler-icon {
     border: 0;
 }
@@ -102,6 +106,7 @@ html {
     text-transform: uppercase;
 }
 
+                                                                                                                 /*---Sigh-up form----*/
 #modalFormdiv {
     text-align: center;
 }
@@ -110,17 +115,11 @@ html {
     font-weight: bold;
 }
 
-.jumbotron h1 {
-    color: white;
-    text-transform: capitalize;
-    font-weight: bold;
-    margin-bottom: 30px;
-    margin-top: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-family: "Langar", sans-serif;
-}
+            /*--------------The WelcomeSection with jumbotron  ----------*/
 
+
+
+/*--- styling jumbotron container----*/
 .jumbotron {
     background-color: rgb(26, 24, 21);
     max-width: 75%;
@@ -130,6 +129,21 @@ html {
     margin-bottom: 50px;
 }
 
+
+/*---jumbotron header----*/
+.jumbotron > h1 {
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Langar", sans-serif;
+}
+
+
+/*---jumbotron-content-TEXT----*/
 .jumbotron .lead {
     color: whitesmoke;
     line-height: 30px;
@@ -146,6 +160,11 @@ html {
     transition: height 0.5s ease-in-out;
 }
 
+#showMoreContent1 {
+    display: none;
+}
+
+
 /* Block dividers */
 
 .block-divider {
@@ -154,90 +173,7 @@ html {
     border: 0;
 }
 
-/* .block-divider--orange {
-    background-color: red;
-  margin: 0 auto;
-   height: 25px;
-}
- */
-hr {
-    background-color: red;
-    margin: 0 auto;
-    height: 25px;
-}
-
-.block-divider--white {
-    background-color: white;
-}
-
-.block-divider--short {
-    width: 35px;
-}
-
-.ccTerms {
-    max-height: 280px;
-    width: auto;
-    background-color: goldenrod;
-    color: white;
-    /* overflow: hidden; */
-    overflow-y: scroll;
-    padding: 10px;
-    transition: height 0.5s ease-in-out;
-    text-align: center;
-    line-height: 20px;
-    font-size: 15px;
-    margin-left: 50px;
-}
-
-.card-body{
-     /* max-height: 280px; */
-    width: auto;
-    background-color: goldenrod;
-    color: white;
-    /* overflow: hidden; */
-    /* overflow-y: scroll; */
-    padding: 10px;
-    transition: height 0.5s ease-in-out;
-    text-align: center;
-    line-height: 20px;
-    font-size: 15px;
-    /* margin-left: 50px; */
-
-}
-
-.dropdown-item{
-    background-color: rgba(0, 73, 83, 0.9);
-    margin-bottom: 5px;
-    border-radius: 15px;
-    justify-content: center;
-    align-items: center;
-    color: #fafafa;
-    font-weight: bold;
-}
-
- h5.modal-title {
-    
-     color: rgb(65, 23, 23);
-     font-size: 20px;
-   font-weight: 600;
-   padding: 5px;
- }
-
- .modalGame-Instruction{
-     border-radius: 10px;
- }
-
-
-.ccTerms-Links {
-    list-style-type: none;
-    padding-left: 5px;
-}
-
-ul > .ccTerms-typo {
-    color: white;
-    padding: 5px;
-    font-style: italic;
-}
+          /*--------------All Buttons------mostly-from whiskey-drop-lecture--------*/
 
 .btn--cta {
     font-weight: bold;
@@ -251,19 +187,23 @@ ul > .ccTerms-typo {
     border-color: rgba(0, 73, 83, 0.9);
 }
 
+
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
 .btn--red:active:focus {
     background-color: #df4929;
     border-color: #df4929;
-    color: white;
+    color: #fafafa;
 }
 
+/* Inside jumbotron Button */
 .read-moreButton{
     margin-bottom: 30px;
 }
 
+
+/* styling climate change jargons Button */
 .btn--red.climateButton {
     width: auto;
     height: auto;
@@ -277,13 +217,86 @@ ul > .ccTerms-typo {
     font-weight: bold;
 }
 
-.page-headers {
-    margin: 75px auto;
+/* styling Nav-bar dropdown buttons */
+.dropdown-item{
+    background-color: rgba(0, 73, 83, 0.9);
+    margin-bottom: 5px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+    font-weight: bold;
 }
 
-#showMoreContent1 {
-    display: none;
+.dropdown-item:hover,
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: #fafafa;
 }
+
+
+/* SignUp-form and navbar-playgame-Modal and CCjargons*/
+
+ul > li > h5,
+ h5.modal-title {
+    
+     color: rgb(65, 23, 23);
+     font-size: 20px;
+   font-weight: 600;
+   padding: 5px;
+ }
+
+/* styling climate change-jargons-CONTENTS */
+ .ccTerms {
+    max-height: 280px;
+    width: auto;
+    background-color: goldenrod;
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding: 10px;
+    transition: height 0.5s ease-in-out;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    margin-left: 50px;
+    font-style: italic
+}
+
+/* styling CCjargon LINKS */
+.ccTerms-Links {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+ /* styling CCjargon CONTENTS */
+ul > .ccTerms-typo {
+    color: white;
+    padding: 5px;
+    font-style: italic;
+}
+
+
+/* game Instruction Contents*/
+.card-body{
+     
+    width: auto;
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    transition: height 0.5s ease-in-out;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+  
+
+}
+
+
+  /*--------------Quotes and Carousel-Section------*/
 
 .sectional-container {
     margin-top: 75px;
@@ -296,7 +309,7 @@ ul > .ccTerms-typo {
     overflow: hidden;
     justify-content: center;
 }
-
+/* credit to this video https://www.youtube.com/watch?v=Thw33qJ5DXo&t=3330s */
 .carousel-caption {
     background: rgba(0, 0, 0, 0.6);
     margin-bottom: 30%;
@@ -320,6 +333,7 @@ ul > .ccTerms-typo {
     opacity: 0.4;
 }
 
+/*----------------styling-the-Quotes---*/
 .newpage-header #quotes {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -330,6 +344,10 @@ ul > .ccTerms-typo {
     font-family: "Langar", sans-serif;
 }
 
+
+
+
+/*--------------------footer-------------*/
 footer {
     background-color: rgba(90, 150, 210, 0.95);
     color: #777777;
@@ -337,8 +355,8 @@ footer {
     margin-top: 30px;
 }
 
-/*--------------------footer-socialMedia---*/
 
+/*--------------------footer-socialMedia---*/
 .social-media {
     padding-bottom: 15px;
     text-align: center;
@@ -348,7 +366,8 @@ div ul.social-media li a {
     text-align: center;
 }
 
-div ul.social-media li a i {
+
+div ul.social-media li a i {   /*--------------styling---myfirst-miletone-project-*/
     width: 2em;
     height: 2em;
     margin: 3%;
@@ -373,7 +392,7 @@ div ul.social-media li a i {
     padding: 10px;
 }
 
-/*--------------------footer-contacts---*/
+/*--------------------footer-Contacts---*/
 
 footer .contacts {
     font-size: 18px;

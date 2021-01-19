@@ -3,32 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
         <!--BootStrap-->
-
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-
-        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"> -->
         <!--Fontawesome-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
         <!--Hover css-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" />
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <!--My Style Sheet-->
         <link rel="stylesheet" href="assets/css/style.css" />
         <title>Climate Change Memory Game</title>
-
-        <!-- <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
-</script>
-<script type="text/javascript">
-   (function(){
-      emailjs.init("user_sFA3TvuNy0iM1ti5VoAbP");
-      emailjs.send("gmail", "frank", {name: "Ambrose", notes: "the project i want"});
-   })();
-</script> -->
     </head>
     <body>
+            <!----------------------------Nav-Bar Section Here--->
+
         <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
             <a href="index.html" class="hvr-grow-shadow" title="Climate Change Memory Game"><h1><img class="navbar-brand" src="assets/images/logo.png" alt="CCMG" /></h1></a>
 
@@ -53,12 +41,13 @@
                 </ul>
             </div>
             <div class="d-none d-md-block" id="you">
-                <!-- <p class="navbar-text my-auto display-flex"><i>More Subliminal Games!</i></p> -->
+           
                 <a href="/login" class="btn btn-lg btn--cta btn--red hvr-grow-shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign Up</a>
             </div>
         </nav>
 
-        <div class="container-fluid welcome-page">
+         <!---------------------------------------Welcome Section of HomePage --------->
+        <article class="container-fluid welcome-page">
             <div class="row no-gutters">
                 <div class="col-12 justify-content-center">
                     <section class="callout jumbotron d-none d-md-block text-center">
@@ -69,7 +58,10 @@
                             more. It’s that longer-term trend that differentiates climate change from natural weather variability. And while “climate change” and “global warming” are often used interchangeably, global warming—the recent
                             rise in the global average temperature near the earth’s surface—is just one aspect of climate change.
                         </p>
+
                         <div class="row insideReadMore no-gutters">
+                     <!-----------------------Read More section of HomePage --------->
+
                             <div class="col-12" id="showMoreContent1">
                                 <p>
                                     We’re facing the biggest environmental challenge our species has ever seen. No matter what we’re passionate about, something we care about will be affected by climate change.
@@ -96,9 +88,10 @@
                     </section>
                 </div>
 
+                <!-------------------------- The Two Buttons after the Jumbotron -->
                 <div class="row no-gutters" id="theButton">
-                    <!-- English Selection-->
 
+                <!--------------------------------The First Button -->
                     <div class="col-md-6 justify-content-center">
                         <div class="row justify-content-center">
                             <div class="col-12 text-center">
@@ -111,13 +104,13 @@
                             <div class="card card-body ccTerms col-12 col-lg-6">
                                 <ul class="ccTerms-Links">
                                     <li class="ccTerms-typo">
-                                        <b>Carbon Footprint:</b>
+                                        <h5>Carbon Footprint:</h5>
                                         <p>
                                             This is the amount of carbon that an organization or person produces in any given time.
                                         </p>
                                     </li>
                                     <li class="ccTerms-typo">
-                                        <b>Climate Change and Global Warming:</b>
+                                        <h5>Climate Change and Global Warming:</h5>
                                         <p>
                                             Although these two terms may seem interchangeable, they aren’t truly identical. Global warming refers to the overall increase in worldwide temperatures caused by rising greenhouse emissions.
                                             Climate change, on the other hand, is a broader term that encompasses the many long-term changes our planet is experiencing.
@@ -125,7 +118,7 @@
                                     </li>
 
                                     <li class="ccTerms-typo">
-                                        <b>Mitigation:</b>
+                                        <h5>Mitigation:</h5>
                                         <p>
                                             Any actions taken to reduce greenhouse gas emissions are considered mitigation. That includes legislation promoting conservation, investments in clean technology, or even planting a tree in your
                                             own backyard! In order to create an environmentally sustainable society, individuals, governments, and corporations around the world will need to commit to mitigating their contributions to global
@@ -134,14 +127,14 @@
                                     </li>
 
                                     <li class="ccTerms-typo">
-                                        <b>Adaptation:</b>
+                                        <h5>Adaptation:</h5>
                                         <p>
                                             Adjustment or preparation of natural or human systems to a new or changing environment which moderates harm or exploits beneficial opportunities.
                                         </p>
                                     </li>
 
                                     <li class="ccTerms-typo">
-                                        <b>Tipping Point</b>
+                                        <h5>Tipping Point:</h5>
                                         <p>
                                             Synonymous with “threshold,” this term refers to the point at which a change in climate is significant enough to trigger a significant environmental event which may not be reversible. Present-day
                                             examples include coral bleaching and melting polar ice caps.
@@ -152,7 +145,8 @@
                         </div>
                     </div>
 
-                    <!-- English Selection-->
+              <!-----------------------The Second Button: Game Instruction section-->
+
                     <div class="col-md-6 justify-content-center">
                         <div class="row justify-content-center">
                             <div class="col-12 text-center">
@@ -163,19 +157,24 @@
                         </div>
                         <div class="collapse row no-gutters justify-content-center" id="collapseTerms">
                             <div class="card card-body ccTerms col-12 col-lg-6 text-center">
-                                <p>
-                                     It is a card matching game, you flip a card, it stays face-up, you then flip a second card that matches it, with the same pattern on it. The goal is to get all of the cards matched. Additionally, there is a timer with default time that start simultaneously as the game begins, it counts down and when its get to zero you lose. Also, there is flip counter that records the number of flips made. Your objective is to get the lowest number of flips with the highest number of time in each game played.
+                                <p> 
+                                   It is a 16 cards matching game, you flip a card, it stays face-up, you then flip a second card that matches it, with the same pattern on it. <br> The goal is to get all of the cards matched. <br> There is a timer with default set-time that start simultaneously as the game begins, it counts down and when its get to zero you lose. <br> Also, there is flip counter that records the number of flips made. Your objective is to get the lowest number of flips with the highest number of time in each game played.
+                              </p>
+                             
+                              <p>
                                 <h6>Card Imagery</h6>
-                                At the back of the cards, the corner images are anthropogenic factors causing climate change, while the center is the earth.
-                                At the front card, the corner images are likely impact of climate change, while the center are the likely Adaptation and mitigation imageries. 
-                                </p>
-                                <a href="cardgame.html"><div class="btn btn-danger">Play</div></a>
+                                At the back of the cards, the corner images are anthropogenic factors causing climate change, while the center is the image of the Earth.
+                                <br> At the front card, the corner images are likely impact of climate change, while the center are the likely Adaptation and mitigation imageries. 
+                            </p>
+                                <a href="cardgame.html"><div class="btn btn--cta btn-danger">Play</div></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </article>
+
+        <!---------------------------------------Quotes in Carousel -->
 
         <div class="container sectional-container">
             <div class="row no-gutters">
@@ -239,10 +238,14 @@
             </div>
         </div>
 
-        <footer class="container-fluid footerContainer my-5">
+        <!----------------------------- --------------------Footer Section -->
+        
+        <footer class="container-fluid footerContainer my-5"> 
             <div class="row no gutters" id="footer-contents">
+                <!-- for small devices -->
                 <div class="col-12 d-sm-none d-md-block d-lg-none contacts">
                     <p>
+                        
                         <i class="fas fa-phone-square-alt"></i> +31 099900000 <br />
                         <i class="fas fa-envelope mt-3"></i> rozdandy@gmail.com
                     </p>
@@ -250,6 +253,7 @@
             </div>
 
             <div class="row no-gutters">
+                  <!-- for large devices -->
                 <div class="col-lg-4 d-none d-sm-block d-md-none d-lg-block contactslg">
                     <p>
                         <i class="fas fa-phone-square-alt"></i> +31 099900000 <br />
@@ -288,7 +292,8 @@
             </div>
         </footer>
 
-        <!--Navbar  Modal For PlayGame link -->
+        <!--------------Modal For PlayGame link in Nav-bar-->
+
         <div class="modal fade" id="staticBackdrop1" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdrop1" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -304,11 +309,15 @@
                         </div>
                         <div class="collapse" id="collapseInstruction">
                             <div class="card card-body">
-                                It is a card matching game, you flip a card, it stays face-up, you then flip a second card that matches it, with the same pattern on it. The goal is to get all of the cards matched. Additionally, there is a timer with default time that start simultaneously as the game begins, it counts down and when its get to zero you lose. Also, there is flip counter that records the number of flips made. Your objective is to get the lowest number of flips with the highest number of time in each game played.
+                               <p> 
+                                   It is a 16 cards matching game, you flip a card, it stays face-up, you then flip a second card that matches it, with the same pattern on it. <br> The goal is to get all of the cards matched. <br> There is a timer with default set-time that start simultaneously as the game begins, it counts down and when its get to zero you lose. <br> Also, there is sflip counter that records the number of flips made. Your objective is to get the lowest number of flips with the highest number of time in each game played.
+                              </p>
+                             
+                              <p>
                                 <h6>Card Imagery</h6>
-                                At the back of the cards, the corner images are anthropogenic factors causing climate change, while the center is the earth.
-                                At the front card, the corner images are likely impact of climate change, while the center are the likely Adaptation and mitigation imageries. 
-
+                                At the back of the cards, the corner images are anthropogenic factors causing climate change, while the center is the image of the Earth.
+                                <br> At the front card, the corner images are likely impact of climate change, while the center are the likely Adaptation and mitigation imageries. 
+                            </p>
                             </div>
                         </div>
                         <a class="dropdown-item hvr-glow text-center" href="cardgame.html">Play</a>
@@ -320,7 +329,8 @@
             </div>
         </div>
 
-        <!-- SIGN-UP Modal -->
+        <!--------------------- Modal for SIGN-UP -->
+
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -351,23 +361,21 @@
                                 <label class="modalForm" for="phoneNumber">Phone Number:</label>
                                 <input type="number" class="form-control" id="phoneNumber" placeholder="Area Code and Number" required />
                             </div>
-                            <button type="submit" class="btn btn-danger modalForm modalFormButton">Submit</button>
-                            <button type="reset" class="btn btn-danger modalForm modalFormButton">Reset</button>
+                            <button type="submit" class="btn btn--cta btn-danger modalForm modalFormButton">Submit</button>
+                            <button type="reset" class="btn btn--cta btn-danger modalForm modalFormButton">Reset</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
 
+             <!----------------Jquery-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <!--My Script-->
-
         <script src="assets/js/cardscript.js"></script>
-        <!--Code for API in this folder Google maps API script-->
+       
     </body>
 </html>
