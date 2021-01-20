@@ -418,12 +418,11 @@ The results for mobile is 92%, although it is not terrible for such a score but 
 
         (ii)  Click on "PLAY GAME" link and verify that the accordion opens and showing the "Game Instruction" and "Play" buttons
 
-            * Onclick on the game instruction button, it opens modal 
-            content over the page to reveal the instructions
-            *Notice that the modal content is static, that is , when you click 
-            outside the button, it does not close, it closes when you click on
-            the button again and cthe accordion closes when you click on the 
-            close button unlike the SIGN-UP button that closes when you click outside it.
+            * Onclick on the game instruction button, it opens modal content over the page to reveal 
+            the instructions.
+            *Notice that the modal content is static, that is , when you click outside the button, 
+            it does not close, it closes when you click on the button again, also, the accordion closes
+            when you click on the close button unlike the SIGN-UP button that closes when you click outside it.
             * onclick on the "Play" button, it goes to the Game page.
 
         (iii) Click on "QUOTE" link or icon and verify that it scrolls smoothly to the Quotes section.
