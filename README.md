@@ -13,9 +13,6 @@ Climate Change Memory Game CCMG is practically an educative site, it is for thos
 
 ## Contents
 
-  + [<img src="assets/images/logo.png">](#-img-src--assets-images-logopng--)
-    + [**Website links:**](#--website-links---)
-  * [Contents](#contents)
 - [**UX (USER EXPERIENCE)**](#--ux--user-experience---)
   * [Project objectives](#project-objectives)
   * [User Goals](#user-goals)
