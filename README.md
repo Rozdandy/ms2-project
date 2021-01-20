@@ -443,7 +443,7 @@ the mobile device but displays in the medium device.
 
 
 
-## * The Game section*
+##  The Game section
 
 ### *Game Startup page*
 
