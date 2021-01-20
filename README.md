@@ -187,7 +187,7 @@ iii. Navigational bar with easy flow that collapses on mobile display and sticks
 The company logo **[CCMG](assets/image/logo.png)**: When a user hover the mouse over it, it displays the fullname of the organisation, also when a user click on it, it revert back to the home page.
 
 
-## **3. Welcome Page 
+## **3. Welcome Page** 
 
 This the first and main page of the site when a user enters the URI. The page educates on the meaning of climate change and the and the impact on both on humans and the ecosystem.
 
@@ -198,7 +198,7 @@ This the first and main page of the site when a user enters the URI. The page ed
   * *Read more button*:    A green button which contains the impact of climate change.
      * Two Green Buttons: Two green buttons, they are bootstrap accordion to reduce clicks and scrolling, the left one has some climate change terms while the right one is link to the game and instructions.
 
-## **4. Quotes
+## **4. Quotes**
 
 **It has the following features**:
 
