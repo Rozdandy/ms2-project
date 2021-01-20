@@ -418,9 +418,13 @@ The results for mobile is 92%, although it is not terrible for such a score but 
 
         (ii)  Click on "PLAY GAME" link and verify that the accordion opens and showing the "Game Instruction" and "Play" buttons
 
-                * Onclick on the game instruction button, it opens modal content over the page to reveal the instructions
-                *Notice that the modal content is static, that is , when you click outside the button, it does not close, it closes when you click on the button again and cthe accordion closes when you click on the close button unlike the SIGN-UP button that closes when you click outside it.
-                * onclick on the "Play" button, it goes to the Game page.
+            * Onclick on the game instruction button, it opens modal 
+            content over the page to reveal the instructions
+            *Notice that the modal content is static, that is , when you click 
+            outside the button, it does not close, it closes when you click on
+            the button again and cthe accordion closes when you click on the 
+            close button unlike the SIGN-UP button that closes when you click outside it.
+            * onclick on the "Play" button, it goes to the Game page.
 
         (iii) Click on "QUOTE" link or icon and verify that it scrolls smoothly to the Quotes section.
 
@@ -707,6 +711,7 @@ All of the images in the site were supplied drom the sources below.
 * Web Dev simplified AND PortEXE: These two videos were great source of inspirations to me, the thought of building the climate change memory game came to me  after watching the two videos, thr tutorials helped in understanding JavaScript more and coding the game. See vidoe links below;
  https://www.youtube.com/watch?v=28VfzEiJgy4 and https://www.youtube.com/watch?v=3uuQ3g92oPQ&feature=youtu.be
 
+* This site was also a source of inspiration to me https://tomod24.github.io/CasinoGame/
 
 **Miscellaneous**
 
