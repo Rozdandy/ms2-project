@@ -13,8 +13,9 @@ Climate Change Memory Game CCMG is practically an educative site, it is for thos
 
 ## Contents
 
-- [**CCMG**](#--ccmg--)
+  + [<img src="assets/images/logo.png">](#-img-src--assets-images-logopng--)
     + [**Website links:**](#--website-links---)
+  * [Contents](#contents)
 - [**UX (USER EXPERIENCE)**](#--ux--user-experience---)
   * [Project objectives](#project-objectives)
   * [User Goals](#user-goals)
@@ -28,10 +29,10 @@ Climate Change Memory Game CCMG is practically an educative site, it is for thos
 - [**FEATURES**](#--features--)
   * [Header, Main body divided into sections and Footer, and same as the Game section](#header--main-body-divided-into-sections-and-footer--and-same-as-the-game-section)
   * [**1. The header:**](#--1-the-header---)
-  * [**2. Logo**](#--2-ccmg--)
-  * [**3. Welcome Page**](#--3-welcome-page)
-  * [**4. Quotes**](#--4-quotes)
-  * [**5. Footer:**](#--5-footer---)
+  * [**2. Logo**](#--2-logo--)
+  * [**3. Welcome Page**](#--3-welcome-page--)
+  * [**4. Quotes**](#--4-quotes--)
+  * [**5. Footer**](#--5-footer--)
     + [Future Features to be Implemeneted](#future-features-to-be-implemeneted)
 - [**TECHNOLOGY USED**](#--technology-used--)
     + [Main Languages](#main-languages)
