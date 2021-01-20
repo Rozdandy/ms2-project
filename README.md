@@ -244,9 +244,9 @@ The results above is 88%, after further cleaning and editing of the codes such a
 <img src="assets/testing/lighthouse2.png">
 
 
-The results for mobile is 90%, although it is not terrible for such a score but would strive to improve the score where needed to enhance it future performance. Below is the image from the mobile view.
+The results for mobile is 92%, although it is not terrible for such a score but would strive to improve the score where needed to enhance it future performance. Below is the image from the mobile view.
 
-<img src="assets/testing/gamemobilLit.png">
+<img src="assets/testing/gamemobiltest.png">
 
 * Furthermore, the website was tested on the following: It works perfectly in them.
 
@@ -367,33 +367,44 @@ The results for mobile is 90%, although it is not terrible for such a score but 
     11. To test the smooth scroll and also to verify that the links are working do the following:
 
         (i)   Click on "WELCOME" link and verify that it stays on the HOME page
+
         (ii)  Click on "PLAY GAME" link and verify that the accordion opens and showing the "Game Instruction" and "Play" buttons
+
                 * Onclick on the game instruction button, it opens modal form over the page to reveal the instruction
+
                 * onclick on the "Play" button, it goes to the Game page.
+
         (iii) Click on "QUOTE" link or icon and verify that it scrolls smoothly to the Quotes section.
 
         (vi)  Click on "Sign Up" link and verify that the modal form opens.
 
-        **On the mobile view and medium device view**
+**On the mobile view and medium device view**
 
-        (a) Check to ensure that the navigation bar is responsive and all the icons and links collapsed 
-            into the toggler icon.
-        (b) Notice that the toggler icon is properly styled and at the right corner position.
-        (c) Notice that all the icons are hidden, and that only the names of the links that appears 
-            and they are centrally and vertically aligned.
-        (d) Repeat steps (i) - (v) above for the mobile views
-        (e) Check Jumbotron text in the home page and ensure the article is hidden for 
-            the mobile device but displays in the medium device.
-        (f) Notice that all the various sections are vertically align for the mobile view.
-        (g) Check the the two green buttons are vertically aligned and the contents hidden and only appears onclick and the items are centrally aligned
+(a) Check to ensure that the navigation bar is responsive and all the icons and links collapsed 
+into the toggler icon.
+
+(b) Notice that the toggler icon is properly styled and at the right corner position.
+
+(c) Notice that all the icons are hidden, and that only the names of the links that appears 
+
+and they are centrally and vertically aligned.
+
+(d) Repeat steps (i) - (v) above for the mobile views
+
+(e) Check Jumbotron text in the home page and ensure the article is hidden for 
+the mobile device but displays in the medium device.
+
+(f) Notice that all the various sections are vertically align for the mobile view.
+
+(g) Check the the two green buttons are vertically aligned and the contents hidden and only appears onclick and the items are centrally aligned
 
 
-        **for the game app**
-         i. Check the game app, notice that, there are no navigation bar for all screen sizes
-        ii. Also, note on the game app that only the large screen has title, no title on the small screens.
-        iii. Note that there is the site logo display on the dark-transparent overlay to the top-left corner that returns users to the home page when clicked.
-        iv. Check the site logo also present on the overlay when the game is either lost or won.
-        v. Note that, the Timer and Flip counter display vertically aligned in Moto G4 mobile phone while, they display flex on all other devices
+*for the game app*
+    i. Check the game app, notice that, there are no navigation bar for all screen sizes
+    ii. Also, note on the game app that only the large screen has title, no title on the small screens.
+    iii. Note that there is the site logo display on the dark-transparent overlay to the top-left corner that returns users to the home page when clicked.
+    iv. Check the site logo also present on the overlay when the game is either lost or won.
+    v. Note that, the Timer and Flip counter display vertically aligned in Moto G4 mobile phone and Iphone 5SE while they display flex on all other devices
 
 2. **Welcome**
 

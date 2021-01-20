@@ -27,14 +27,15 @@ html {
     position: relative;
 }
 
-                        /*----------------------------------Nav-bar---------*/
+/*----------------------------------Nav-bar---------*/
 .navbar-dark {
     padding: 0px;
     border: 0;
     background-color: rgba(90, 150, 210, 0.95) !important;
 }
 
-.navbar-dark .navbar-brand { /*---Site Logo----*/
+.navbar-dark .navbar-brand {
+    /*---Site Logo----*/
     float: left;
     font-family: "Supermercado", sans-serif;
     font-size: 200%;
@@ -63,7 +64,6 @@ html {
     list-style: none;
     padding: 0;
     margin: 0px;
-    
 }
 /*---nav-anchors----*/
 .nav-item a {
@@ -106,7 +106,7 @@ html {
     text-transform: uppercase;
 }
 
-                                                                                                                 /*---Sigh-up form----*/
+/*---Sigh-up form----*/
 #modalFormdiv {
     text-align: center;
 }
@@ -115,9 +115,7 @@ html {
     font-weight: bold;
 }
 
-            /*--------------The WelcomeSection with jumbotron  ----------*/
-
-
+/*--------------The WelcomeSection with jumbotron  ----------*/
 
 /*--- styling jumbotron container----*/
 .jumbotron {
@@ -128,7 +126,6 @@ html {
     border-radius: 50px 50px 30px 30px;
     margin-bottom: 50px;
 }
-
 
 /*---jumbotron header----*/
 .jumbotron > h1 {
@@ -141,7 +138,6 @@ html {
     padding-bottom: 5px;
     font-family: "Langar", sans-serif;
 }
-
 
 /*---jumbotron-content-TEXT----*/
 .jumbotron .lead {
@@ -164,7 +160,6 @@ html {
     display: none;
 }
 
-
 /* Block dividers */
 
 .block-divider {
@@ -173,7 +168,7 @@ html {
     border: 0;
 }
 
-          /*--------------All Buttons------mostly-from whiskey-drop-lecture--------*/
+/*--------------All Buttons------mostly-from whiskey-drop-lecture--------*/
 
 .btn--cta {
     font-weight: bold;
@@ -187,7 +182,6 @@ html {
     border-color: rgba(0, 73, 83, 0.9);
 }
 
-
 .btn--red:hover,
 .btn--red:active,
 .btn--red:focus,
@@ -198,10 +192,9 @@ html {
 }
 
 /* Inside jumbotron Button */
-.read-moreButton{
+.read-moreButton {
     margin-bottom: 30px;
 }
-
 
 /* styling climate change jargons Button */
 .btn--red.climateButton {
@@ -218,7 +211,7 @@ html {
 }
 
 /* styling Nav-bar dropdown buttons */
-.dropdown-item{
+.dropdown-item {
     background-color: rgba(0, 73, 83, 0.9);
     margin-bottom: 5px;
     border-radius: 15px;
@@ -237,23 +230,21 @@ html {
     color: #fafafa;
 }
 
-
 /* SignUp-form and navbar-playgame-Modal and CCjargons*/
 
 ul > li > h5,
- h5.modal-title {
-    
-     color: rgb(65, 23, 23);
-     font-size: 20px;
-   font-weight: 600;
-   padding: 5px;
- }
- .form-group {
-     margin: 10px;
- }
+h5.modal-title {
+    color: rgb(65, 23, 23);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+.form-group {
+    margin: 10px;
+}
 
 /* styling climate change-jargons-CONTENTS */
- .ccTerms {
+.ccTerms {
     max-height: 280px;
     width: auto;
     background-color: goldenrod;
@@ -266,7 +257,7 @@ ul > li > h5,
     line-height: 20px;
     font-size: 15px;
     margin-left: 50px;
-    font-style: italic
+    font-style: italic;
 }
 
 /* styling CCjargon LINKS */
@@ -275,17 +266,15 @@ ul > li > h5,
     padding-left: 5px;
 }
 
- /* styling CCjargon CONTENTS */
+/* styling CCjargon CONTENTS */
 ul > .ccTerms-typo {
     color: white;
     padding: 5px;
     font-style: italic;
 }
 
-
 /* game Instruction Contents*/
-.card-body{
-     
+.card-body {
     width: auto;
     background-color: goldenrod;
     color: white;
@@ -294,12 +283,9 @@ ul > .ccTerms-typo {
     text-align: center;
     line-height: 20px;
     font-size: 15px;
-  
-
 }
 
-
-  /*--------------Quotes and Carousel-Section------*/
+/*--------------Quotes and Carousel-Section------*/
 
 .sectional-container {
     margin-top: 75px;
@@ -348,9 +334,6 @@ ul > .ccTerms-typo {
     font-family: "Langar", sans-serif;
 }
 
-
-
-
 /*--------------------footer-------------*/
 footer {
     background-color: rgba(90, 150, 210, 0.95);
@@ -358,7 +341,6 @@ footer {
     min-height: 120px;
     margin-top: 30px;
 }
-
 
 /*--------------------footer-socialMedia---*/
 .social-media {
@@ -370,8 +352,8 @@ div ul.social-media li a {
     text-align: center;
 }
 
-
-div ul.social-media li a i {   /*--------------styling---myfirst-miletone-project-*/
+div ul.social-media li a i {
+    /*--------------styling---myfirst-miletone-project-*/
     width: 2em;
     height: 2em;
     margin: 3%;
