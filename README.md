@@ -1,4 +1,5 @@
-# **CCMG**
+# **CCMG** <img src="assets/testing/logo.png">
+
 
 <img src="assets/testing/homepageSH.png">
 <img src="assets/testing/gameapp.png">
@@ -9,7 +10,7 @@
 
 *Site*:[CCMG](https://rozdandy.github.io/ms2-project/.)
 
-Climate Change Memory Game is practically an educative site, it is for those that care about the health of the planet earth. The goal is to provide an intuitive and interactive site which is user friendly to everyone in all ages and profession. The homepage provides educating information on climate change which includes some notable quotes of leaders across the world. While the game section is a card memory game whereby users are to match pairs. The cards are embossed with intriguing climate change-related imagery and terms such as GHG greenhouse gas molecules, climate change impact, and mitigations pictures. Users will use their memory and skill to match the pairs before the time finishes.
+Climate Change Memory Game CCMG is practically an educative site, it is for those that care about the health of the planet earth. The goal is to provide an intuitive and interactive site which is user friendly to everyone in all ages and profession. The homepage provides educating information on climate change which includes some notable quotes of leaders across the world. While the game section is a card memory game whereby users are to match pairs. The cards are embossed with intriguing climate change-related imagery and terms such as GHG greenhouse gas molecules, climate change impact, and mitigations pictures. Users will use their memory and skill to match the pairs before the time finishes.
 
 ## Contents
 
@@ -235,7 +236,6 @@ This section is located at the bottom-most part of the page. It provides the use
  * To add different levels in game, which will include easy level and hard level. This would be archieved either by increasing the number of cards with lesser time or other new techniques. Having different difficulties level in the game would sure get users to be more engaged especially when it comes to tesing their memories against racing time. 
 
 
-
 # **TECHNOLOGY USED**
 
 *The follwoing Technologies, Frameworks, and Libraries were used to write the project*      
@@ -395,7 +395,6 @@ The results for mobile is 92%, although it is not terrible for such a score but 
     3. A click on the logo will return the user to the  WELCOME PAGE (homepage). 
         
 
-
 ## **Manual Testing**
 
 #####  Home Page:
@@ -420,8 +419,8 @@ The results for mobile is 92%, although it is not terrible for such a score but 
 
         (ii)  Click on "PLAY GAME" link and verify that the accordion opens and showing the "Game Instruction" and "Play" buttons
 
-                * Onclick on the game instruction button, it opens modal form over the page to reveal the instruction
-
+                * Onclick on the game instruction button, it opens modal content over the page to reveal the instructions
+                *Notice that the modal content is static, that is , when you click outside the button, it does not close, it closes when you click on the button again and cthe accordion closes when you click on the close button unlike the SIGN-UP button that closes when you click outside it.
                 * onclick on the "Play" button, it goes to the Game page.
 
         (iii) Click on "QUOTE" link or icon and verify that it scrolls smoothly to the Quotes section.
