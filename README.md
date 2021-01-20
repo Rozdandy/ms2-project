@@ -1,5 +1,6 @@
-# **CCMG** <img src="assets/testing/logo.png">
+# **CCMG** 
 
+<img src="assets/testing/logo.png">
 
 <img src="assets/testing/homepageSH.png">
 <img src="assets/testing/gameapp.png">
