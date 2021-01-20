@@ -230,8 +230,11 @@ html {
     color: #fafafa;
 }
 
+.btn.btn--cta.btn-danger.modalFormButton{
+    margin-bottom: 25px;
+}
 /* SignUp-form and navbar-playgame-Modal and CCjargons*/
-
+h6,
 ul > li > h5,
 h5.modal-title {
     color: rgb(65, 23, 23);
@@ -244,9 +247,7 @@ h5.modal-title {
     margin-bottom: 30px;
 }
 
-.btn.btn--cta.btn-danger.modalFormButton{
-    margin-bottom: 25px;
-}
+
 
 /* styling climate change-jargons-CONTENTS */
 .ccTerms {
@@ -307,7 +308,7 @@ ul > .ccTerms-typo {
 /* credit to this video https://www.youtube.com/watch?v=Thw33qJ5DXo&t=3330s */
 .carousel-caption {
     background: rgba(0, 0, 0, 0.6);
-    margin-bottom: 30%;
+    margin-bottom: 45%;
     padding: 50px 50px;
     border-radius: 15px 50px 30px;
 }
