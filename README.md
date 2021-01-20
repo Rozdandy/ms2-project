@@ -11,6 +11,56 @@
 
 Climate Change Memory Game is practically an educative site, it is for those that care about the health of the planet earth. The goal is to provide an intuitive and interactive site which is user friendly to everyone in all ages and profession. The homepage provides educating information on climate change which includes some notable quotes of leaders across the world. While the game section is a card memory game whereby users are to match pairs. The cards are embossed with intriguing climate change-related imagery and terms such as GHG greenhouse gas molecules, climate change impact, and mitigations pictures. Users will use their memory and skill to match the pairs before the time finishes.
 
+## Contents
+
+- [**CCMG**](#--ccmg--)
+    + [**Website links:**](#--website-links---)
+- [**UX (USER EXPERIENCE)**](#--ux--user-experience---)
+  * [Project objectives](#project-objectives)
+  * [User Goals](#user-goals)
+  * [Ownership  Goals](#ownership--goals)
+    + [User stories](#user-stories)
+  * [Design Choices](#design-choices)
+      - [Fonts](#fonts)
+      - [**Colour Scheme**](#--colour-scheme--)
+  * [Content Section](#content-section)
+  * [**Wireframe**](#--wireframe--)
+- [**FEATURES**](#--features--)
+  * [Header, Main body divided into sections and Footer, and same as the Game section](#header--main-body-divided-into-sections-and-footer--and-same-as-the-game-section)
+  * [**1. The header:**](#--1-the-header---)
+  * [**2. Logo**](#--2-ccmg--)
+  * [**3. Welcome Page](#--3-welcome-page)
+  * [**4. Quotes](#--4-quotes)
+  * [**5. Footer:**](#--5-footer---)
+    + [Future Features to be Implemeneted](#future-features-to-be-implemeneted)
+- [**TECHNOLOGY USED**](#--technology-used--)
+    + [Main Languages](#main-languages)
+      - [Libraries](#libraries)
+    + [Tools](#tools)
+- [TESTING](#testing)
+  * [**Testing user stories from UX section**](#--testing-user-stories-from-ux-section--)
+  * [**Manual Testing**](#--manual-testing--)
+        * [Home Page:](#home-page-)
+  * [The Game section](#the-game-section)
+    + [*Game Startup page*](#-game-startup-page-)
+    + [*Active Game Mode and back of cards*](#-active-game-mode-and-back-of-cards-)
+    + [*Front of cards*](#-front-of-cards-)
+  * [*Game Over and victory mood*](#-game-over-and-victory-mood-)
+  * [Bugs and resolves](#bugs-and-resolves)
+    + [Resolve](#resolve)
+    + [Resolve](#resolve-1)
+    + [Resolve](#resolve-2)
+    + [Resolve](#resolve-3)
+- [**DEPLOYMENT**](#--deployment--)
+  * [Deploying](#deploying)
+  * [Clone](#clone)
+- [OR](#or)
+- [CREDITS](#credits)
+  * [contents](#contents)
+  * [Media](#media)
+  * [Acknowledgements](#acknowledgements)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 # **UX (USER EXPERIENCE)**
 
@@ -132,7 +182,7 @@ iii. Navigational bar with easy flow that collapses on mobile display and sticks
   * *Play Game link and icon*
   * *Sign up button*
 
-## **2. CCMG**
+## **2. Logo**
 
 The company logo **[CCMG](assets/image/logo.png)**: When a user hover the mouse over it, it displays the fullname of the organisation, also when a user click on it, it revert back to the home page.
 
