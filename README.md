@@ -7,7 +7,7 @@
 
 *my github link*: [Rozdandy](https://github.com/Rozdandy?tab=repositories)
 
-*Site*:[CCMG](https://rozdandy.github.io/ms2-project/.)
+*Site*:[<img src="assets/images/logo.png">](https://rozdandy.github.io/ms2-project/.)
 
 Climate Change Memory Game CCMG is practically an educative site, it is for those that care about the health of the planet earth. The goal is to provide an intuitive and interactive site which is user friendly to everyone in all ages and profession. The homepage provides educating information on climate change which includes some notable quotes of leaders across the world. While the game section is a card memory game whereby users are to match pairs. The cards are embossed with intriguing climate change-related imagery and terms such as GHG greenhouse gas molecules, climate change impact, and mitigations pictures. Users will use their memory and skill to match the pairs before the time finishes.
 
