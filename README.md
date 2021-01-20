@@ -711,6 +711,7 @@ All of the images in the site were supplied drom the sources below.
  https://www.youtube.com/watch?v=28VfzEiJgy4 and https://www.youtube.com/watch?v=3uuQ3g92oPQ&feature=youtu.be
 
 * This site was also a source of inspiration to me https://tomod24.github.io/CasinoGame/
+* This site was also a source of inspiration to me https://alexnexton.github.io/MS2-LingLang/cardGameEnglish.html
 
 **Miscellaneous**
 
