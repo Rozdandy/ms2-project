@@ -29,8 +29,8 @@ Climate Change Memory Game is practically an educative site, it is for those tha
   * [Header, Main body divided into sections and Footer, and same as the Game section](#header--main-body-divided-into-sections-and-footer--and-same-as-the-game-section)
   * [**1. The header:**](#--1-the-header---)
   * [**2. Logo**](#--2-ccmg--)
-  * [**3. Welcome Page](#--3-welcome-page)
-  * [**4. Quotes](#--4-quotes)
+  * [**3. Welcome Page**](#--3-welcome-page)
+  * [**4. Quotes**](#--4-quotes)
   * [**5. Footer:**](#--5-footer---)
     + [Future Features to be Implemeneted](#future-features-to-be-implemeneted)
 - [**TECHNOLOGY USED**](#--technology-used--)
@@ -205,7 +205,7 @@ This the first and main page of the site when a user enters the URI. The page ed
    * **carousel**: It contains notable quotes on climate change from world leaders with some nice background images.
 
 
-## **5. Footer:** 
+## **5. Footer** 
 
 This section is located at the bottom-most part of the page. It provides the user with the following information.
 
